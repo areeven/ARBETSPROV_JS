@@ -121,9 +121,15 @@ Jag skapar en mapp som heter middlewares och i den skapar jag
 
 ### Configuration
 
-- I min configuration directory skapar jag e
+I min configuration directory skapar jag en `ApplyMiddlewares.js`
+- Denna kommer att hämta alla middlewares jag vill använda och den importerar jag i min
+Server.js
+  - `ExpressApp.use(helmet())`
+  - `ExpressApp.use(Express.urlencoded({extended: false}))`
+  - `ExpressApp.use(Express.json())`
+  - `ExpressApp.use(Morgan)` - middlewares för att hantera outcome från Logger.
 
-
+Det kommer också att finnas en fil som heter `CoffeeConfiguration.js` i denna directory lite senare
 
 
 ### Säkerhet
