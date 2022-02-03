@@ -16,8 +16,10 @@ Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group
 9. [Configuration](#configuration)
 
 ---
-
+<details>
+<summary>
 ## Uppgiften
+</summary>
 
 - Jag ska bygga ett REST API i Express.js
 - API ska hantera -
@@ -25,12 +27,11 @@ Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group
     - Uppdatera fält i entiteten
     - Begränsa användaren så att ett fält i entiteten inte går att ändra före ett annat fält är true
 - API:et skall vara säkert
+</details>
 
 ---
 
-## Steg ett
-
-### GitHub
+## GitHub
 
 1. `git init`
 2. `git add .`
@@ -41,9 +42,7 @@ Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group
 
 ---
 
-## Steg två
-
-### Installera npm
+## Installera npm
 
 `npm init -y`
 
@@ -64,7 +63,7 @@ Testa funktionalitet - npm i:
 - `chai-http`
 - `chai`
 
-### Get it running
+## Get it running
 
 Jag börjar med en src directory med en Server.js Jag skapar en ExpressApp.js som jag `import Express from 'express'` och
 anropar `const ExpressApp = Express()`. Sedan exporterar jag `export default ExpressApp` och på så vis kan jag
@@ -72,7 +71,7 @@ anropar `const ExpressApp = Express()`. Sedan exporterar jag `export default Exp
 
 Tid som passerat: 1 timme
 
-### Entitet
+## Entitet
 
 Planen för denna uppgift är att göra ett API som hanterar Ekologiskt Kaffe Det som ska ingå är:
 
@@ -84,14 +83,14 @@ Planen för denna uppgift är att göra ett API som hanterar Ekologiskt Kaffe De
 Jag vill testa funktionalitet av min kod och kommer att implementera CRUD för att kunna skapa, läsa av, uppdatera men
 också ta bort.
 
-Det kommer vara ett krav att välja om kaffet är ekologiskt annars får man inte uppdatera/skapa en entitet.
+Det kommer vara ett krav att välja om kaffet är ekologiskt annars får man inte uppdatera eller skapa en entitet.
 
-### Nodemon
+## Nodemon
 
 För att starta upp servern och se så att den fungerar använder jag mig av nodemon:
 `npx nodemon Server.js` - när jag står inuti backend-mappen i terminalen.
 
-### Insomnia
+## Insomnia
 
 Nu när Servern är igång kör jag mitt första test i Insomnia för att se så att det går igenom
 ![insomnia](src/global/images/insomnia-alive.png)
@@ -106,7 +105,7 @@ Jag testar
 
 - Paus 15 min 10:30-10:45
 
-### Utils
+## Utils
 
 - Logger.js
 - ExpressApp.js
@@ -114,7 +113,7 @@ Jag testar
     - skapar variabler av alla env-anrop så kan man anropa dessa i varje fil utan att importera dotenv och anropa
       dotenv.config() - dotenv använder jag för en säkrare kod och inte avslöja portar man använder
 
-### Middlewares
+## Middlewares
 
 Jag skapar en mapp som heter middlewares och i den skapar jag
 
@@ -122,7 +121,7 @@ Jag skapar en mapp som heter middlewares och i den skapar jag
     - I Morgan skapar jag uppbyggnaden utav mina Logger-anrop i terminalen
     - Jag använder Logger för att inte avslöja känslig information i webbläsarens console.
 
-### Configuration
+## Configuration
 
 I min configuration directory skapar jag en `ApplyMiddlewares.js`
 
@@ -134,7 +133,10 @@ I min configuration directory skapar jag en `ApplyMiddlewares.js`
 
 Det kommer också att finnas en fil som heter `CoffeeConfiguration.js` i denna directory lite senare
 
-### Säkerhet
+Tid som passerat: 1 timme
+Paus 15 min: 11:45-12:00
+
+## Säkerhet
 
 För att säkra upp projektet har jag använt mig utav
 
@@ -142,7 +144,7 @@ För att säkra upp projektet har jag använt mig utav
 - Logger - för att inte använda console.log och på så vis undvika att känslig information syns i console på webb
 - Helmet - skapar ett skal som skyddar kod och känslig information återigen i inspektorn
 
-### Kvalitetssäkerhet
+## Kvalitetssäkerhet
 
 Jag använder
 
@@ -152,10 +154,11 @@ Jag använder
 Jag har valt att använda ramverk jag känner mig bekväm i med tanke på tiden som är för projektet. För att verkligen visa
 vad jag kan.
 
-### För Techlead
+## För Techlead
 
 För att komma igång och testa detta projekt behövs följande göras:
 
 1. Öppna .env-template och följ stegen i filen
 2. `cd backend` i terminalen
 3. `npx nodemon Server.js` | `npm nodemon Server.js`
+
