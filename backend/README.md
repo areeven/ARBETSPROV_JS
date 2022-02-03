@@ -6,6 +6,8 @@ Utfärdat av: Nordic Retail Group
 3. [NPM](#installera-npm)
 4. [Get it Running](#get-it-running)
 5. [Entitet](#entitet)
+6. [Nodemon](#nodemon)
+7. [Insomnia](#insomnia)
 
 # KODTEST
 
@@ -80,4 +82,14 @@ Jag vill testa funktionalitet av min kod och kommer att implementera CRUD
 för att kunna skapa, läsa av, uppdatera men också ta bort.
 
 Det kommer vara ett krav att välja om kaffet är ekologiskt annars får man inte uppdatera/skapa
+en entitet.
 
+### Nodemon
+
+För att starta upp servern och se så att den fungerar använder jag mig av nodemon:
+`npx nodemon Server.js` - när jag står inuti backend-mappen i terminalen.
+
+### Insomnia
+
+Nu när Servern är igång kör jag mitt första test i Insomnia för att se så att det går igenom
+![image](src/global/images/insomnia-alive.png)
