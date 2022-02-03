@@ -148,6 +148,16 @@ Jag använder mongoose för att koppla mig mot min mongoDB databas, denna har ja
 - `try` för att skapa connection till databasen med mongoose.
 - `catch` för att fånga upp error
 
+## Model
+
+Nu skapar jag en model för hur databasens collection kommer se ut, vilka värden som ska finnas med
+- Skapar `new mongoose.schema` med typ och om fältet är required.
+- Skapar sedan `new mongoose.model` där jag skickar in mitt schema samt vilken collection den tillhör i databasen
+
+
+Tid som passerat: 1 timme
+Lunch 1 timme: 13:00 - 14:00
+
 
 
 

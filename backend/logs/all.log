@@ -90,3 +90,23 @@
 2022-02-03 12:54:48:5448 [33mwarn[39m: [33mSERVER IS IN DEVELOPMENT MODE![39m
 2022-02-03 12:54:48:5448 [32minfo[39m: [32mServer started at http://localhost:3001[39m
 2022-02-03 12:54:48:5448 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 12:58:04:584 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 12:58:04:584 [35mhttp[39m: [35mGET / 304 - - 2.425 ms[39m
+[35m[39m
+2022-02-03 12:58:13:5813 [35mhttp[39m: [35mGET /organic-coffee 404 153 - 1.359 ms[39m
+[35m[39m
+2022-02-03 12:59:14:5914 [33mwarn[39m: [33mSERVER IS IN DEVELOPMENT MODE![39m
+2022-02-03 12:59:14:5914 [32minfo[39m: [32mServer started at http://localhost:3001[39m
+2022-02-03 12:59:14:5914 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 12:59:32:5932 [33mwarn[39m: [33mSERVER IS IN DEVELOPMENT MODE![39m
+2022-02-03 12:59:32:5932 [32minfo[39m: [32mServer started at http://localhost:3001[39m
+2022-02-03 12:59:32:5932 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 13:00:35:035 [33mwarn[39m: [33mSERVER IS IN DEVELOPMENT MODE![39m
+2022-02-03 13:00:35:035 [32minfo[39m: [32mServer started at http://localhost:3001[39m
+2022-02-03 13:00:35:035 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 13:03:38:338 [33mwarn[39m: [33mSERVER IS IN DEVELOPMENT MODE![39m
+2022-02-03 13:03:38:338 [32minfo[39m: [32mServer started at http://localhost:3001[39m
+2022-02-03 13:03:38:338 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 13:04:57:457 [33mwarn[39m: [33mSERVER IS IN DEVELOPMENT MODE![39m
+2022-02-03 13:04:57:457 [32minfo[39m: [32mServer started at http://localhost:3001[39m
+2022-02-03 13:04:57:457 [32minfo[39m: [32mSuccessfully connected to database[39m
