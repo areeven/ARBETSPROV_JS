@@ -158,7 +158,15 @@ Nu skapar jag en model för hur databasens collection kommer se ut, vilka värde
 Tid som passerat: 1 timme
 Lunch 1 timme: 13:00 - 14:00
 
+Tid mellan 14:00 - 15:30 har jag gjort följande:
 
+- Suttit med SSL-cert för att skapa ett säkert API. Eftersom att projektet dock är localhost
+så kommer den inte agera korrekt förrän kopplad till dns. 
+
+Det tog en stund att få till det, men det funkade till slut. Tid på detta 1,5 timme. 
+
+Jag använde mig av standard x509, tillsammans med openssl och skapade certificate.crt och privateKey.key.
+Sedan har jag importerat de i min config
 
 
 

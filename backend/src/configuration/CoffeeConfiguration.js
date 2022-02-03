@@ -5,6 +5,7 @@ import mongoose from 'mongoose'
 import https from 'https'
 import fs from 'fs'
 import path from 'path'
+import {httpsPort} from '../utils/DotEnv.js'
 
 const listen = ExpressApp.listen(port)
 
@@ -36,11 +37,15 @@ const connectDb = async () => {
     }
 }
 
+const sslServer = https.createServer({
+    key: fs.readFileSync(path.resolve('src/utils/security/privateKey.key')),
+    cert: fs.readFileSync(path.resolve('src/utils/security/certificate.crt'))
+}, ExpressApp)
+
 const connectPort = () => {
-    https.createServer(options, function (req, res){
-        checkEnvironmentMode()
-        Logger.info(`Server started at https://localhost:${port}`)
-    }).listen
+    sslServer.listen(httpsPort, () => {
+        Logger.http(`Secure Server responding on https://localhost:${httpsPort}`)
+    })
 }
 
 export default {

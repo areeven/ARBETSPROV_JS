@@ -208,3 +208,15 @@
 [35m[39m
 2022-02-03 15:58:18:5818 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
 2022-02-03 15:58:18:5818 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 16:03:09:39 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 16:03:09:39 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 16:03:11:311 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 16:03:11:311 [35mhttp[39m: [35mGET / 200 13 - 2.060 ms[39m
+[35m[39m
+2022-02-03 16:03:11:311 [35mhttp[39m: [35mGET /favicon.ico 404 150 - 1.185 ms[39m
+[35m[39m
+2022-02-03 16:09:09:99 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 16:09:10:910 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 16:09:13:913 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 16:09:13:913 [35mhttp[39m: [35mGET / 200 13 - 2.692 ms[39m
+[35m[39m
