@@ -92,4 +92,5 @@ För att starta upp servern och se så att den fungerar använder jag mig av nod
 ### Insomnia
 
 Nu när Servern är igång kör jag mitt första test i Insomnia för att se så att det går igenom
-![image](src/global/images/insomnia-alive.png)
+![insomnia](src/global/images/insomnia-alive.png)
+![apiAlive](src/global/images/api-alive.png)
