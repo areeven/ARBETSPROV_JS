@@ -1,8 +1,8 @@
 import Logger from './utils/Logger.js'
 import StatusCode from './configuration/StatusCode.js'
-import {port} from './utils/DotEnv.js'
 import ApplyMiddlewares from './configuration/ApplyMiddlewares.js'
 import ExpressApp from './utils/ExpressApp.js'
+import CoffeeConfiguration from './configuration/CoffeeConfiguration.js'
 
 ApplyMiddlewares()
 
@@ -11,6 +11,6 @@ ExpressApp.get('/', (req, res) => {
     res.status(StatusCode.OK).send('API is alive!')
 })
 
-ExpressApp.listen(port, () => {
-    Logger.http(`API is up and running on: http://localhost:${port}`)
-})
+CoffeeConfiguration.connectDb().then()
+CoffeeConfiguration.connectPort()
+

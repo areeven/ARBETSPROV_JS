@@ -1,4 +1,6 @@
 Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group
+Start: 09:00 - 2022-02-03
+Slut: 09:00 - 2022-02-04
 
 # KODTEST
 
@@ -137,6 +139,19 @@ Det kommer också att finnas en fil som heter `CoffeeConfiguration.js` i denna d
 
 Tid som passerat: 1 timme
 Paus 15 min: 11:45-12:00
+
+Skapar `CoffeeConfiguration.js`
+Här kommer jag att koppla upp mig mot databasen samt lyssna efter vilken port jag startar servern på.
+Jag använder mongoose för att koppla mig mot min mongoDB databas, denna har jag tidigare skapat med:
+- `docker run -d -p <port> --name <dbname> mongo:latest`
+- I filen hämtar jag min uri som innehåller min mongodb tillsammans med localhost och port.
+- `try` för att skapa connection till databasen med mongoose.
+- `catch` för att fånga upp error
+
+
+
+
+
 
 ## Säkerhet
 
