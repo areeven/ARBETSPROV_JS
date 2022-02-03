@@ -107,8 +107,6 @@ Jag testar
 ---
 ![apiAlive](src/global/images/api-alive.png)
 
-- Paus 15 min 10:30-10:45
-
 ## Utils
 
 - Logger.js
@@ -137,7 +135,7 @@ I min configuration directory skapar jag en `ApplyMiddlewares.js`
 
 Det kommer också att finnas en fil som heter `CoffeeConfiguration.js` i denna directory lite senare
 
-Tid som passerat: 1 timme Paus 15 min: 11:45-12:00
+Tid som passerat: 1 timme
 
 Skapar `CoffeeConfiguration.js`
 Här kommer jag att koppla upp mig mot databasen samt lyssna efter vilken port jag startar servern på. Jag använder
@@ -217,6 +215,8 @@ Jag använder
 Jag har valt att använda ramverk jag känner mig bekväm i med tanke på tiden som är för projektet. För att verkligen visa
 vad jag kan.
 
+
+
 ## För Techlead
 
 Jag har lagt in en SSL-nyckel. Detta endast för att visa att jag förstår hur jag ska säkra upp med https och SSL. Jag
@@ -229,3 +229,4 @@ För att komma igång och testa detta projekt behövs följande göras:
 2. Öppna .env-template och följ stegen i filen
 3. `cd backend` i terminalen
 4. `npx nodemon Server.js` | `npm nodemon Server.js`
+5. För tester i mocha & chai skriv i terminalen (i directory backend): `npm run test`

@@ -21,7 +21,7 @@ const createCoffee = async (req, res) => {
         Logger.debug(response)
         res.status(StatusCode.CREATED).send(response)
     } catch(error) {
-        res.status(500).send({
+        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
             message: error.message
         })
     }
