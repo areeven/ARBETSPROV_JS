@@ -2,6 +2,16 @@ import {environment, port, dbName, mongoDbUrl} from '../utils/DotEnv.js'
 import Logger from '../utils/Logger.js'
 import ExpressApp from '../utils/ExpressApp.js'
 import mongoose from 'mongoose'
+import https from 'https'
+import fs from 'fs'
+import path from 'path'
+
+const listen = ExpressApp.listen(port)
+
+const options = {
+    key: fs.readFileSync(path.resolve('src/utils/security/privateKey.key')),
+    cert: fs.readFileSync(path.resolve('src/utils/security/certificate.crt'))
+}
 
 const checkEnvironmentMode = () => {
     const devEnvironment = 'development'
@@ -27,10 +37,10 @@ const connectDb = async () => {
 }
 
 const connectPort = () => {
-    ExpressApp.listen(port, () => {
+    https.createServer(options, function (req, res){
         checkEnvironmentMode()
-        Logger.info(`Server started at http://localhost:${port}`)
-    })
+        Logger.info(`Server started at https://localhost:${port}`)
+    }).listen
 }
 
 export default {
