@@ -8,7 +8,11 @@
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Express",
+    "REST",
+    "API"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
