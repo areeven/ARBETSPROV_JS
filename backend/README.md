@@ -18,8 +18,10 @@ Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group
 ---
 <details>
 <summary>
-## Uppgiften
+Uppgiften
 </summary>
+
+## Uppgiften
 
 - Jag ska bygga ett REST API i Express.js
 - API ska hantera -
