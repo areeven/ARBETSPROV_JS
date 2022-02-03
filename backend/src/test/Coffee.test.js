@@ -1,9 +1,9 @@
 import Chai from 'chai'
 import chaiHttp from 'chai-http'
 import {describe, it as test} from 'mocha'
-import app from '../Server.js'
 import StatusCode from '../configuration/StatusCode.js'
 import ExpressApp from '../utils/ExpressApp.js'
+import app from '../Server.js'
 
 Chai.should()
 Chai.use(chaiHttp)
@@ -41,7 +41,7 @@ const testOfNonExistingRoute = () => {
             Chai.request(app)
                 .get('/coffee')
                 .end((req, res) => {
-                    res.should.have.a.status(404)
+                    expect(res.status).to.eq(StatusCode.NOT_FOUND)
                     done()
                 })
         })

@@ -215,6 +215,15 @@ Jag använder
 Jag har valt att använda ramverk jag känner mig bekväm i med tanke på tiden som är för projektet. För att verkligen visa
 vad jag kan.
 
+## Test mocha - chai
+
+- Jag skapar en fil för samtliga anrop att testa och se så att det fungerar som det ska även här i terminalen.
+  - Coffee.test.js
+  - `import 'mocha'`
+  - `import Chai from 'chai'`
+  - `import chaiHttp from 'chai-http'`
+  - 
+
 
 
 ## För Techlead
