@@ -1,6 +1,10 @@
 Utfört av: Emilie Öst
 Utfärdat av: Nordic Retail Group
 
+# KODTEST
+
+### Ett test för att visa mina kunskaper i JavaScript - Backend Projekt
+
 1. [Uppgiften](#uppgiften)
 2. [GitHub](#github)
 3. [NPM](#installera-npm)
@@ -11,10 +15,6 @@ Utfärdat av: Nordic Retail Group
 8. [Utils](#utils)
 8. [MiddleWares](#middlewares)
 9. [Configuration](#configuration)
-
-# KODTEST
-
-### Ett test för att visa mina kunskaper i JavaScript - Backend Projekt
 
 ---
 
