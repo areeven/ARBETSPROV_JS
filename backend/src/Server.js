@@ -17,10 +17,6 @@ ExpressApp.get('/', (req, res) => {
 
 CoffeeConfiguration.connectDb().then()
 
-ExpressApp.use('/', (req, res, next) => {
-    res.send('Hello from SSL server')
-})
-
 const sslServer = https.createServer({
     key: fs.readFileSync(path.resolve('src/utils/security/privateKey.key')),
     cert: fs.readFileSync(path.resolve('src/utils/security/certificate.crt'))
@@ -30,3 +26,5 @@ const sslServer = https.createServer({
 sslServer.listen(httpsPort, () => {
     Logger.http(`Secure Server responding on https://localhost:${httpsPort}`)
 })
+
+
