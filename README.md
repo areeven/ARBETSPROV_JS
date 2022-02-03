@@ -4,6 +4,8 @@ Utfärdat av: Nordic Retail Group
 1. [Uppgiften](#uppgiften)
 2. [GitHub](#github)
 3. [NPM](#installera-npm)
+4. [Get it Running](#get-it-running)
+5. [Entitet](#entitet)
 
 # KODTEST
 
@@ -54,4 +56,28 @@ npm i:
 - `mocha`
 - `chai-http`
 - `chai`
+
+### Get it running
+
+Jag börjar med en src directory med en Server.js
+I den importerar jag express
+och för användarvänligheten och inte behöva importera Express i varje fil där det används
+så exporterar jag app `export const app = Express()`, på så vis behöver jag inte upprepa mig
+när jag senare använder app.
+
+Tid som passerat: 1 timme
+
+### Entitet
+
+Planen för denna uppgift är att göra ett API som hanterar Ekologiskt Kaffe
+Det som ska ingå är:
+- Märke
+- Smak
+- Styrka
+- True eller false om det är ekologiskt eller inte
+
+Jag vill testa funktionalitet av min kod och kommer att implementera CRUD
+för att kunna skapa, läsa av, uppdatera men också ta bort.
+
+Det kommer vara ett krav att välja om kaffet är ekologiskt annars får man inte uppdatera/skapa
 
