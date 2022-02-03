@@ -293,7 +293,7 @@
   },
   "scripts": {
     "start": "node .",
-    "test": "mocha"
+    "test": "mocha 'src/__tests__/**'"
   },
   "keywords": [],
   "author": "",

@@ -4,7 +4,7 @@ Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group Start: 09:00 - 2022-02
 
 ### Ett test för att visa mina kunskaper i JavaScript - Backend Projekt
 
-All info kring hanterandet av Server.js finns i avsnittet om Techlead nedan. Klicka bara på länken så hamnar du där!
+All info kring hanterandet av mitt REST-API finns i avsnittet om Techlead nedan. Klicka bara på länken så hamnar du där!
 
 1. [Uppgiften](#uppgiften)
 2. [GitHub](#github)
@@ -186,6 +186,16 @@ Nu skapar jag create coffee i min controller, den kommer att slussas vidare till
 där kommer det finns en CoffeeRoutes.js som tar emot createCoffee och där lägger jag till vilken route den ska vara på
 samt att den kan kopplas till min Server.js. Huvudpunkten i det hela!
 
+Detta tog ca 30 minuter att fullfölja Ytterligare 15 minuter att göra testerna i insomnia och se så det fungerar som det
+ska
+
+För att förbättra min kod lade jag sedan in en directory i controller för att dela upp varje crud-anrop Detta tog ca 30
+min totalt, med felsökning och lite strul med min IDE.
+
+Testade återigen i webstorm, men också i webbläsaren och det fungerade. Testerna går igenom med godkänt som resultat.
+
+
+
 ## Säkerhet
 
 För att säkra upp projektet har jag använt mig utav
@@ -193,6 +203,9 @@ För att säkra upp projektet har jag använt mig utav
 - Dotenv - säkra känslig information från användare och detta skickas inte upp mot GitHub till exempel
 - Logger - för att inte använda console.log och på så vis undvika att känslig information syns i console på webb
 - Helmet - skapar ett skal som skyddar kod och känslig information återigen i inspektorn
+- SSL - self-signed certifikat med openssl. Importerar detta i mitt listen-anrop där jag skapar en säker server med
+  https. - som jag skriver ovan så är detta inte optimalt i development-läge på localhost, men jag vill visa att jag kan
+och förstår det så det följer med. 
 
 ## Kvalitetssäkerhet
 
@@ -206,8 +219,8 @@ vad jag kan.
 
 ## För Techlead
 
-Jag har lagt in en SSL-nyckel. Detta endast för att visa att jag förstår hur jag ska säkra upp med https och SSL.
-Jag förstår samtidigt att det inte är något man lägger upp på github annars, och den kommer tas bort från github när
+Jag har lagt in en SSL-nyckel. Detta endast för att visa att jag förstår hur jag ska säkra upp med https och SSL. Jag
+förstår samtidigt att det inte är något man lägger upp på github annars, och den kommer tas bort från github när
 projektet är rättat.\
 
 För att komma igång och testa detta projekt behövs följande göras:
