@@ -949,3 +949,377 @@
 2022-02-03 20:45:48:4548 [32minfo[39m: [32mSuccessfully connected to database[39m
 2022-02-03 20:46:10:4610 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
 2022-02-03 20:46:10:4610 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:06:50:650 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:06:50:650 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:07:23:723 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:07:23:723 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:07:37:737 [35mhttp[39m: [35mGET / 404 1346 - 2.373 ms[39m
+[35m[39m
+2022-02-03 21:08:38:838 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:08:38:838 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:08:43:843 [35mhttp[39m: [35mGET / 404 1346 - 2.630 ms[39m
+[35m[39m
+2022-02-03 21:09:22:922 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:09:22:922 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:09:26:926 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 21:09:26:926 [35mhttp[39m: [35mGET / 200 13 - 2.505 ms[39m
+[35m[39m
+2022-02-03 21:13:23:1323 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:13:24:1324 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:17:09:179 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:17:09:179 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:18:42:1842 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:18:42:1842 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:19:27:1927 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:19:27:1927 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:22:26:2226 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:22:26:2226 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:22:48:2248 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:22:49:2249 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:23:04:234 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:23:04:234 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:23:50:2350 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:24:21:2421 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:24:48:2448 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:24:48:2448 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:25:58:2558 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 21:25:58:2558 [35mhttp[39m: [35mGET / 200 13 - 2.621 ms[39m
+[35m[39m
+2022-02-03 21:26:01:261 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T16:28:21.958Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf7c5a8ae749ba9f519fc"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    updatedAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-03 21:26:01:261 [35mhttp[39m: [35mGET /coffee 200 1177 - 18.907 ms[39m
+[35m[39m
+2022-02-03 21:26:04:264 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-03 21:26:04:264 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238")[39m
+[37m}[39m
+2022-02-03 21:26:04:264 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m  createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m  updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-03 21:26:04:264 [35mhttp[39m: [35mPOST /coffee 201 195 - 13.449 ms[39m
+[35m[39m
+2022-02-03 21:26:07:267 [35mhttp[39m: [35mCoffee id is: 61fbf6b50e1daab64aacbf45[39m
+2022-02-03 21:26:07:267 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: false[39m
+[35m}[39m
+2022-02-03 21:26:07:267 [35mhttp[39m: [35mPUT /coffee/61fbf6b50e1daab64aacbf45 200 39 - 1.531 ms[39m
+[35m[39m
+2022-02-03 21:26:11:2611 [35mhttp[39m: [35mCoffee id is: 61fbf6b50e1daab64aacbf45[39m
+2022-02-03 21:26:11:2611 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-03 21:26:11:2611 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m  updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-03 21:26:11:2611 [35mhttp[39m: [35mPUT /coffee/61fbf6b50e1daab64aacbf45 200 195 - 12.419 ms[39m
+[35m[39m
+2022-02-03 21:26:16:2616 [35mhttp[39m: [35mDELETE /coffee/61fc0c9c521b091278cade51 500 142 - 3.601 ms[39m
+[35m[39m
+2022-02-03 21:26:28:2628 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf7c5a8ae749ba9f519fc"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    updatedAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-03 21:26:28:2628 [35mhttp[39m: [35mGET /coffee 200 1373 - 9.081 ms[39m
+[35m[39m
+2022-02-03 21:26:33:2633 [35mhttp[39m: [35mDELETE /coffee/61fbf7c5a8ae749ba9f519fc 200 80 - 3.022 ms[39m
+[35m[39m
+2022-02-03 21:27:06:276 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:27:06:276 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:27:57:2757 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:27:57:2757 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:28:44:2844 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 21:28:44:2844 [35mhttp[39m: [35mGET / 200 13 - 2.454 ms[39m
+[35m[39m
+2022-02-03 21:30:31:3031 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:30:31:3031 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:31:31:3131 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:31:31:3131 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:44:35:4435 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:44:35:4435 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:44:58:4458 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:44:58:4458 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:47:10:4710 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:47:10:4710 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:48:20:4820 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:48:20:4820 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:48:40:4840 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:48:40:4840 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:49:04:494 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:49:04:494 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:49:30:4930 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:49:30:4930 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:50:16:5016 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:50:16:5016 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:51:18:5118 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:51:18:5118 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:55:13:5513 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:55:13:5513 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:57:18:5718 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:57:18:5718 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 21:57:39:5739 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 21:57:39:5739 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:14:12:1412 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:14:12:1412 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:14:34:1434 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 22:14:34:1434 [35mhttp[39m: [35mGET / 200 13 - 3.074 ms[39m
+[35m[39m
+2022-02-03 22:14:43:1443 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-03 22:14:43:1443 [35mhttp[39m: [35mGET /coffee 200 1177 - 19.913 ms[39m
+[35m[39m
+2022-02-03 22:17:00:170 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:17:00:170 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:17:11:1711 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:17:11:1711 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:19:28:1928 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:19:28:1928 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:38:45:3845 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:38:45:3845 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:39:31:3931 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:39:31:3931 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:39:43:3943 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:39:43:3943 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:41:19:4119 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:41:19:4119 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:42:17:4217 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 22:42:17:4217 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 22:42:17:4217 [35mhttp[39m: [35m{ brand: '7tls13', taste: '7tls13', strength: '7tls13', organic: true }[39m
+2022-02-03 22:42:17:4217 [37mdebug[39m: [37m{[39m
+[37m  brand: '7tls13',[39m
+[37m  taste: '7tls13',[39m
+[37m  strength: '7tls13',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc4c394dc481118c52982b")[39m
+[37m}[39m
+2022-02-03 22:42:17:4217 [37mdebug[39m: [37m{[39m
+[37m  brand: '7tls13',[39m
+[37m  taste: '7tls13',[39m
+[37m  strength: '7tls13',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m  createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m  updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-03 22:42:17:4217 [35mhttp[39m: [35mPOST /coffee 201 189 - 17.818 ms[39m
+[35m[39m
+2022-02-03 22:43:07:437 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 22:43:07:437 [35mhttp[39m: [35mGET / 200 13 - 1.674 ms[39m
+[35m[39m

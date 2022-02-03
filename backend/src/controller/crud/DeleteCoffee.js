@@ -6,7 +6,7 @@ const deleteCoffeeWithId = async (req, res) => {
         const {coffeeId} = req.params
         const response = await CoffeeModel.findByIdAndDelete(coffeeId)
         res.status(StatusCode.OK).send({
-            message: `Deleted Coffee with ID: ${coffeeId} and brand: ${response.brand}`,
+            message: `Deleted Coffee with ID: ${response.brand} and brand: ${req.params.coffeeId}`,
         })
     } catch(error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({

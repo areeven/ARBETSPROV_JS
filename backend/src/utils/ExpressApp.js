@@ -1,5 +1,5 @@
-import Express from 'express'
+import express from 'express'
 
-const ExpressApp = Express()
+const ExpressApp = express()
 
 export default ExpressApp

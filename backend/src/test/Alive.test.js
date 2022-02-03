@@ -1,7 +1,7 @@
 import Chai from 'chai'
 import {describe, it as test} from 'mocha'
 import StatusCode from '../configuration/StatusCode.js'
-import ExpressApp from '../utils/ExpressApp.js'
+import app from '../Server.js'
 import chaiHttp from 'chai-http'
 
 Chai.use(chaiHttp)
@@ -9,7 +9,7 @@ const expect = Chai.expect
 
 describe('API Alive Request', () => {
     test('should return API is Alive!', () => {
-        Chai.request(ExpressApp)
+        Chai.request(app)
             .get('/')
             .then((response) => {
                 expect(response.status).to.equal(StatusCode.OK)

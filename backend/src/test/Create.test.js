@@ -1,40 +1,37 @@
 import Chai from 'chai'
 import chaiHttp from 'chai-http'
 import {describe, it as test} from 'mocha'
-import ExpressApp from '../utils/ExpressApp.js'
+import app from '../Server.js'
 import StatusCode from '../configuration/StatusCode.js'
+import ExpressApp from '../utils/ExpressApp.js'
 
-Chai.use(chaiHttp)
 Chai.should()
+Chai.use(chaiHttp)
+
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
+
 const expect = Chai.expect
 
 const random = Math.random().toString(36).substring(7)
 
+const coffeeRoute = '/coffee'
+
 let id = '61fbfa981c39baa60bca2f3b'
 
-const coffee = {
+let coffee = {
     brand: random,
     taste: random,
     strength: random,
     organic: true
 }
 
-const updatedCoffee = {
-    brand: random + random,
-    taste: random + random,
-    strength: random + random,
-    organic: true
-}
-
-const route = 'coffee'
-
 const testExistingRoute = () => {
     describe('test existing route', () => {
         test('expecting status 200', (done) => {
-            Chai.request(ExpressApp)
+            Chai.request(app)
                 .get('/')
                 .end((req, res) => {
-                    res.should.have.a.status(200)
+                    expect(res.status).to.deep.equal(200)
                     done()
                 })
         })
@@ -44,8 +41,8 @@ const testExistingRoute = () => {
 const testOfNonExistingRoute = () => {
     describe('test of non existing route', () => {
         test('expecting status 404', (done) => {
-            Chai.request(ExpressApp)
-                .get(`/${random}`)
+            Chai.request(app)
+                .get('/coffee')
                 .end((req, res) => {
                     res.should.have.a.status(404)
                     done()
@@ -55,14 +52,29 @@ const testOfNonExistingRoute = () => {
 }
 
 const createCoffee = () => {
-    describe('test method create in database', () => {
+    describe('test method (POST) create in database', () => {
         test('expecting to create coffee entity', (done) => {
             Chai.request(ExpressApp)
-                .post(`/coffee`)
+                .post(`${coffeeRoute}`)
                 .send(coffee)
                 .end((error, response) => {
                     id = response.body.id
-                    expect(response.status).to.equal(StatusCode.CREATED)
+                    expect(response.body).be.a('object')
+                    done()
+                })
+        })
+    })
+}
+
+const getCoffee = () => {
+    describe('test method (GET) read in database', () => {
+        test('expecting to create coffee entity', (done) => {
+            Chai.request(app)
+                .get(`${coffeeRoute}`)
+                .end((error, response) => {
+                    id = response.body.id
+                    response.should.have.a.status(200)
+                    console.log(response)
                     done()
                 })
         })
@@ -71,6 +83,7 @@ const createCoffee = () => {
 
 describe('Testing Coffee API', () => {
     createCoffee()
+    getCoffee()
     testOfNonExistingRoute()
     testExistingRoute()
 })
