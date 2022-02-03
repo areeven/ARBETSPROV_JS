@@ -489,3 +489,368 @@
 2022-02-03 17:33:52:3352 [32minfo[39m: [32mSuccessfully connected to database[39m
 2022-02-03 17:34:20:3420 [35mhttp[39m: [35mDELETE /coffee/61fbf8f6d31a5c443cbd0e04 200 80 - 11.753 ms[39m
 [35m[39m
+2022-02-03 18:08:28:828 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T16:28:21.958Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf7c5a8ae749ba9f519fc"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    updatedAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-03 18:08:28:828 [35mhttp[39m: [35mGET /coffee 200 589 - 15.024 ms[39m
+[35m[39m
+2022-02-03 18:10:52:1052 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-03 18:10:52:1052 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc0c9c521b091278cade51")[39m
+[37m}[39m
+2022-02-03 18:10:52:1052 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc0c9c521b091278cade51"),[39m
+[37m  createdAt: 2022-02-03T17:10:52.519Z,[39m
+[37m  updatedAt: 2022-02-03T17:10:52.519Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-03 18:10:52:1052 [35mhttp[39m: [35mPOST /coffee 201 195 - 15.378 ms[39m
+[35m[39m
+2022-02-03 18:10:58:1058 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-03 18:10:58:1058 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc0ca2521b091278cade53")[39m
+[37m}[39m
+2022-02-03 18:10:58:1058 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m  createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m  updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-03 18:10:58:1058 [35mhttp[39m: [35mPOST /coffee 201 195 - 7.468 ms[39m
+[35m[39m
+2022-02-03 18:11:27:1127 [35mhttp[39m: [35mCoffee id is: 61fbf6b50e1daab64aacbf45[39m
+2022-02-03 18:11:27:1127 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: false[39m
+[35m}[39m
+2022-02-03 18:11:27:1127 [35mhttp[39m: [35mPUT /coffee/61fbf6b50e1daab64aacbf45 200 39 - 1.584 ms[39m
+[35m[39m
+2022-02-03 18:11:51:1151 [35mhttp[39m: [35mDELETE /coffee/61fbf8f6d31a5c443cbd0e04 500 142 - 3.838 ms[39m
+[35m[39m
+2022-02-03 18:11:57:1157 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T16:28:21.958Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf7c5a8ae749ba9f519fc"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    updatedAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0c9c521b091278cade51"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:52.519Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:52.519Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-03 18:11:57:1157 [35mhttp[39m: [35mGET /coffee 200 981 - 7.771 ms[39m
+[35m[39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35mGET / 200 13 - 1.398 ms[39m
+[35m[39m
+2022-02-03 18:12:06:126 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T16:28:21.958Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf7c5a8ae749ba9f519fc"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    updatedAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0c9c521b091278cade51"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:52.519Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:52.519Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35mGET /coffee 200 981 - 8.059 ms[39m
+[35m[39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-03 18:12:06:126 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc0ce6521b091278cade58")[39m
+[37m}[39m
+2022-02-03 18:12:06:126 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m  createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m  updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35mPOST /coffee 201 195 - 5.737 ms[39m
+[35m[39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35mCoffee id is: 61fbf6b50e1daab64aacbf45[39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: false[39m
+[35m}[39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35mPUT /coffee/61fbf6b50e1daab64aacbf45 200 39 - 1.894 ms[39m
+[35m[39m
+2022-02-03 18:12:06:126 [35mhttp[39m: [35mDELETE /coffee/61fc0c9c521b091278cade51 200 80 - 3.464 ms[39m
+[35m[39m
+2022-02-03 18:54:05:545 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 18:54:05:545 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 18:54:18:5418 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 18:54:18:5418 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 18:54:29:5429 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 18:54:29:5429 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 18:54:38:5438 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 18:54:38:5438 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 19:24:47:2447 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 19:24:50:2450 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 19:24:50:2450 [35mhttp[39m: [35mGET / 200 13 - 2.484 ms[39m
+[35m[39m
+2022-02-03 19:24:50:2450 [35mhttp[39m: [35mGET /favicon.ico 404 150 - 0.969 ms[39m
+[35m[39m
+2022-02-03 19:25:17:2517 [33mwarn[39m: [33mERROR WHILE TRYING TO CONNECT TO DATABASE connect ECONNREFUSED 127.0.0.1:27017[39m
+2022-02-03 19:25:44:2544 [35mhttp[39m: [35mGET /coffee - - - - ms[39m
+[35m[39m
+2022-02-03 19:26:00:260 [35mhttp[39m: [35mGET /coffee - - - - ms[39m
+[35m[39m
+2022-02-03 19:27:05:275 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 19:28:27:2827 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 19:28:27:2827 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 19:28:29:2829 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 19:28:29:2829 [35mhttp[39m: [35mGET / 200 13 - 3.908 ms[39m
+[35m[39m
+2022-02-03 19:28:33:2833 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T16:28:21.958Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf7c5a8ae749ba9f519fc"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    updatedAt: 2022-02-03T15:41:57.396Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-03 19:28:33:2833 [35mhttp[39m: [35mGET /coffee 200 981 - 18.595 ms[39m
+[35m[39m
+2022-02-03 19:35:45:3545 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 19:35:45:3545 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 19:36:39:3639 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 19:36:39:3639 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 19:37:34:3734 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 19:37:34:3734 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-03 19:38:45:3845 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 19:38:45:3845 [35mhttp[39m: [35mGET / 200 13 - 3.339 ms[39m
+[35m[39m
+2022-02-03 19:40:54:4054 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: false[39m
+[35m}[39m
+2022-02-03 19:40:54:4054 [35mhttp[39m: [35mPOST /coffee 200 36 - 5.347 ms[39m
+[35m[39m
+2022-02-03 19:41:09:419 [35mhttp[39m: [35m{[39m
+[35m  brand: 'zoegas',[39m
+[35m  taste: 'hazienda',[39m
+[35m  strength: 'Dark roast',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-03 19:41:09:419 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc21c5a8e6ec13f4fd44da")[39m
+[37m}[39m
+2022-02-03 19:41:09:419 [37mdebug[39m: [37m{[39m
+[37m  brand: 'zoegas',[39m
+[37m  taste: 'hazienda',[39m
+[37m  strength: 'Dark roast',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m  createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m  updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-03 19:41:09:419 [35mhttp[39m: [35mPOST /coffee 201 195 - 17.909 ms[39m
+[35m[39m
+2022-02-03 19:44:30:4430 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-03 19:44:31:4431 [32minfo[39m: [32mSuccessfully connected to database[39m

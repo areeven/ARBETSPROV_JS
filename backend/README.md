@@ -206,6 +206,10 @@ vad jag kan.
 
 ## För Techlead
 
+Jag har lagt in en SSL-nyckel. Detta endast för att visa att jag förstår hur jag ska säkra upp med https och SSL.
+Jag förstår samtidigt att det inte är något man lägger upp på github annars, och den kommer tas bort från github när
+projektet är rättat.\
+
 För att komma igång och testa detta projekt behövs följande göras:
 
 1. git clone https://github.com/areeven/ARBETSPROV_JS.git
