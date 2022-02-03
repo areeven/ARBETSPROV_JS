@@ -7,8 +7,11 @@ import https from 'https'
 import {httpsPort} from './utils/DotEnv.js'
 import fs from 'fs'
 import path from 'path'
+import CoffeeRoutes from './routes/CoffeeRoutes.js'
 
 ApplyMiddlewares()
+
+CoffeeRoutes.routes(ExpressApp)
 
 ExpressApp.get('/', (req, res) => {
     Logger.http('API is alive!')

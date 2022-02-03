@@ -1,10 +1,10 @@
-Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group
-Start: 09:00 - 2022-02-03
-Slut: 09:00 - 2022-02-04
+Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group Start: 09:00 - 2022-02-03 Slut: 09:00 - 2022-02-04
 
 # KODTEST
 
 ### Ett test för att visa mina kunskaper i JavaScript - Backend Projekt
+
+All info kring hanterandet av Server.js finns i avsnittet om Techlead nedan. Klicka bara på länken så hamnar du där!
 
 1. [Uppgiften](#uppgiften)
 2. [GitHub](#github)
@@ -14,14 +14,15 @@ Slut: 09:00 - 2022-02-04
 6. [Nodemon](#nodemon)
 7. [Insomnia](#insomnia)
 8. [Utils](#utils)
-8. [MiddleWares](#middlewares)
-9. [Configuration](#configuration)
+9. [MiddleWares](#middlewares)
+10. [Configuration](#configuration)
+11. [Model](#model)
+12. [CRUD](#crud)
+13. [Säkerhet](#skerhet)
+14. [Kvalitetssäkerhet](#kvalitetsskerhet)
+15. [README för techlead](#fr-techlead)
 
 ---
-<details>
-<summary>
-Uppgiften
-</summary>
 
 ## Uppgiften
 
@@ -31,7 +32,6 @@ Uppgiften
     - Uppdatera fält i entiteten
     - Begränsa användaren så att ett fält i entiteten inte går att ändra före ett annat fält är true
 - API:et skall vara säkert
-</details>
 
 ---
 
@@ -137,12 +137,12 @@ I min configuration directory skapar jag en `ApplyMiddlewares.js`
 
 Det kommer också att finnas en fil som heter `CoffeeConfiguration.js` i denna directory lite senare
 
-Tid som passerat: 1 timme
-Paus 15 min: 11:45-12:00
+Tid som passerat: 1 timme Paus 15 min: 11:45-12:00
 
 Skapar `CoffeeConfiguration.js`
-Här kommer jag att koppla upp mig mot databasen samt lyssna efter vilken port jag startar servern på.
-Jag använder mongoose för att koppla mig mot min mongoDB databas, denna har jag tidigare skapat med:
+Här kommer jag att koppla upp mig mot databasen samt lyssna efter vilken port jag startar servern på. Jag använder
+mongoose för att koppla mig mot min mongoDB databas, denna har jag tidigare skapat med:
+
 - `docker run -d -p <port> --name <dbname> mongo:latest`
 - I filen hämtar jag min uri som innehåller min mongodb tillsammans med localhost och port.
 - `try` för att skapa connection till databasen med mongoose.
@@ -151,25 +151,40 @@ Jag använder mongoose för att koppla mig mot min mongoDB databas, denna har ja
 ## Model
 
 Nu skapar jag en model för hur databasens collection kommer se ut, vilka värden som ska finnas med
+
 - Skapar `new mongoose.schema` med typ och om fältet är required.
 - Skapar sedan `new mongoose.model` där jag skickar in mitt schema samt vilken collection den tillhör i databasen
 
-
-Tid som passerat: 1 timme
-Lunch 1 timme: 13:00 - 14:00
+Tid som passerat: 1 timme Lunch 1 timme: 13:00 - 14:00
 
 Tid mellan 14:00 - 15:30 har jag gjort följande:
 
-- Suttit med SSL-cert för att skapa ett säkert API. Eftersom att projektet dock är localhost
-så kommer den inte agera korrekt förrän kopplad till dns. 
+- Suttit med SSL-cert för att skapa ett säkert API. Eftersom att projektet dock är localhost så kommer den inte agera
+  korrekt förrän kopplad till dns.
 
-Det tog en stund att få till det, men det funkade till slut. Tid på detta 1,5 timme. 
+Det tog en stund att få till det, men det funkade till slut. Tid på detta 1,5 timme.
 
-Jag använde mig av standard x509, tillsammans med openssl och skapade certificate.crt och privateKey.key.
-Sedan har jag importerat de i min config
+Jag skapade ett selfsigned ssl-certifikat och använde mig av standard x509, tillsammans med openssl och skapade
+certificate.crt och privateKey.key. Sedan har jag importerat de i min CoffeeConfiguration.js Det var endel problem i
+början med variabler och vart filerna låg. Men till slut fungerar det som det ska! 1,5 timme denna gång. Nästa gång 30
+min.
 
+Eftersom att jag dessutom sitter på windows fick jag installera openssl.
 
+## CRUD
 
+Jag har tidigare i projektet skapat en model att använda för min entitet - kaffe. Nu ska jag skapa en controller där jag
+kan styra CRUD.
+
+---
+Lite färre raster nu, men ju mer jag kommer in i det vill jag fortsätta sitta med det!
+
+---
+
+CoffeeController -\
+Nu skapar jag create coffee i min controller, den kommer att slussas vidare till en ny directory som heter routes. Och
+där kommer det finns en CoffeeRoutes.js som tar emot createCoffee och där lägger jag till vilken route den ska vara på
+samt att den kan kopplas till min Server.js. Huvudpunkten i det hela!
 
 ## Säkerhet
 
@@ -193,7 +208,7 @@ vad jag kan.
 
 För att komma igång och testa detta projekt behövs följande göras:
 
-1. Öppna .env-template och följ stegen i filen
-2. `cd backend` i terminalen
-3. `npx nodemon Server.js` | `npm nodemon Server.js`
-
+1. git clone https://github.com/areeven/ARBETSPROV_JS.git
+2. Öppna .env-template och följ stegen i filen
+3. `cd backend` i terminalen
+4. `npx nodemon Server.js` | `npm nodemon Server.js`
