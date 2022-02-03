@@ -136,5 +136,16 @@ För att säkra upp projektet har jag använt mig utav
 ### Kvalitetssäkerhet
 
 Jag använder 
-- Insomnia för att testa mina anrop 
+- Insomnia för att testa mina anrop
 - Mocha & Chai för att testa min backend i koden
+
+Jag har valt att använda ramverk jag känner mig bekväm i med tanke på tiden som är för projektet.
+För att verkligen visa vad jag kan.
+
+
+### För Techlead
+
+För att komma igång och testa detta projekt behövs följande göras:
+1. Öppna .env-template och följ stegen i filen
+2. `cd backend` i terminalen
+3. `npx nodemon Server.js` | `npm nodemon Server.js`
