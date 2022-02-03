@@ -1,4 +1,5 @@
 import winston from 'winston'
+import {environment} from './DotEnv.js'
 
 const levels = {
     error: 0,
@@ -19,7 +20,7 @@ const colors = {
 winston.addColors(colors)
 
 const level = () => {
-    const env = process.env.ENV_NODE || 'development'
+    const env = environment || 'development'
     const isDevelopment = env === 'development'
     return isDevelopment ? 'debug' : 'warn'
 }

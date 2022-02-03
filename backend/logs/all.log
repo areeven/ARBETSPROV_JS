@@ -1,3 +1,42 @@
 2022-02-03 09:45:22:4522 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
 2022-02-03 09:46:13:4613 [35mhttp[39m: [35mAPI IS UP AND RUNNING ON: HTTP://LOCALHOST:3001[39m
 2022-02-03 09:46:23:4623 [35mhttp[39m: [35mAPI IS ALIVE![39m
+2022-02-03 10:19:17:1917 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 10:19:23:1923 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 10:24:03:243 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 10:24:59:2459 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 10:25:20:2520 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 10:55:50:5550 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 10:56:02:562 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 10:56:41:5641 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 10:57:34:5734 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 10:57:39:5739 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 10:59:26:5926 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 10:59:39:5939 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 10:59:40:5940 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 10:59:49:5949 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 10:59:51:5951 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 11:00:02:02 [37mdebug[39m: [37mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:00:06:06 [33mwarn[39m: [33mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:00:13:013 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:03:50:350 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:03:52:352 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:04:17:417 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:04:28:428 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:05:57:557 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:06:40:640 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:06:45:645 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 11:06:56:656 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:07:43:743 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:08:44:844 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:15:37:1537 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:15:40:1540 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 11:15:40:1540 [35mhttp[39m: [35mGET / 304 - - 2.588 ms[39m
+[35m[39m
+2022-02-03 11:19:43:1943 [35mhttp[39m: [35mAPI is up and running on: http://localhost:3001[39m
+2022-02-03 11:21:52:2152 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 11:21:52:2152 [35mhttp[39m: [35mGET / 304 - - 3.286 ms[39m
+[35m[39m
+2022-02-03 11:21:58:2158 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-03 11:21:58:2158 [35mhttp[39m: [35mGET / 200 13 - 0.805 ms[39m
+[35m[39m
