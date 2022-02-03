@@ -1,5 +1,4 @@
-Utfört av: Emilie Öst
-Utfärdat av: Nordic Retail Group
+Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group
 
 # KODTEST
 
@@ -19,18 +18,20 @@ Utfärdat av: Nordic Retail Group
 ---
 
 ## Uppgiften
+
 - Jag ska bygga ett REST API i Express.js
-- API ska hantera - 
-  - Skapa en entitet
-  - Uppdatera fält i entiteten
-  - Begränsa användaren så att ett fält i entiteten inte går att ändra före ett annat fält är true
+- API ska hantera -
+    - Skapa en entitet
+    - Uppdatera fält i entiteten
+    - Begränsa användaren så att ett fält i entiteten inte går att ändra före ett annat fält är true
 - API:et skall vara säkert
 
 ---
 
-##Steg ett
+## Steg ett
 
-###GitHub
+### GitHub
+
 1. `git init`
 2. `git add .`
 3. `git commit -m "added project"`
@@ -40,13 +41,14 @@ Utfärdat av: Nordic Retail Group
 
 ---
 
-##Steg två
+## Steg två
 
-###Installera npm
+### Installera npm
 
 `npm init -y`
 
 npm i -D:
+
 - `express`
 - `winston`
 - `dotenv`
@@ -56,35 +58,33 @@ npm i -D:
 - `cors`
 - `nodemon`
 
-Testa funktionalitet - 
-npm i: 
+Testa funktionalitet - npm i:
+
 - `mocha`
 - `chai-http`
 - `chai`
 
 ### Get it running
 
-Jag börjar med en src directory med en Server.js
-Jag skapar en ExpressApp.js som jag `import Express from 'express'` och anropar `const ExpressApp = Express()`.
-Sedan exporterar jag `export default ExpressApp` och på så vis kan jag återanvända den vid behov utan att anropa
-Express i varje fil med import och variabel.
+Jag börjar med en src directory med en Server.js Jag skapar en ExpressApp.js som jag `import Express from 'express'` och
+anropar `const ExpressApp = Express()`. Sedan exporterar jag `export default ExpressApp` och på så vis kan jag
+återanvända den vid behov utan att anropa Express i varje fil med import och variabel.
 
 Tid som passerat: 1 timme
 
 ### Entitet
 
-Planen för denna uppgift är att göra ett API som hanterar Ekologiskt Kaffe
-Det som ska ingå är:
+Planen för denna uppgift är att göra ett API som hanterar Ekologiskt Kaffe Det som ska ingå är:
+
 - Märke
 - Smak
 - Styrka
 - True eller false om det är ekologiskt eller inte
 
-Jag vill testa funktionalitet av min kod och kommer att implementera CRUD
-för att kunna skapa, läsa av, uppdatera men också ta bort.
+Jag vill testa funktionalitet av min kod och kommer att implementera CRUD för att kunna skapa, läsa av, uppdatera men
+också ta bort.
 
-Det kommer vara ett krav att välja om kaffet är ekologiskt annars får man inte uppdatera/skapa
-en entitet.
+Det kommer vara ett krav att välja om kaffet är ekologiskt annars får man inte uppdatera/skapa en entitet.
 
 ### Nodemon
 
@@ -96,9 +96,11 @@ För att starta upp servern och se så att den fungerar använder jag mig av nod
 Nu när Servern är igång kör jag mitt första test i Insomnia för att se så att det går igenom
 ![insomnia](src/global/images/insomnia-alive.png)
 Jag testar
+
 - rätt status
 - rätt innehåll
 - rätt typ
+
 ---
 ![apiAlive](src/global/images/api-alive.png)
 
@@ -109,49 +111,51 @@ Jag testar
 - Logger.js
 - ExpressApp.js
 - DotEnv.js
-  - skapar variabler av alla env-anrop så kan man anropa dessa i varje fil utan att importera 
-  dotenv och anropa dotenv.config() - dotenv använder jag för en säkrare kod och inte avslöja portar man använder
+    - skapar variabler av alla env-anrop så kan man anropa dessa i varje fil utan att importera dotenv och anropa
+      dotenv.config() - dotenv använder jag för en säkrare kod och inte avslöja portar man använder
 
 ### Middlewares
 
 Jag skapar en mapp som heter middlewares och i den skapar jag
+
 - Morgan.js
-  - I Morgan skapar jag uppbyggnaden utav mina Logger-anrop i terminalen
-  - Jag använder Logger för att inte avslöja känslig information i webbläsarens console.
+    - I Morgan skapar jag uppbyggnaden utav mina Logger-anrop i terminalen
+    - Jag använder Logger för att inte avslöja känslig information i webbläsarens console.
 
 ### Configuration
 
 I min configuration directory skapar jag en `ApplyMiddlewares.js`
-- Denna kommer att hämta alla middlewares jag vill använda och den importerar jag i min
-Server.js
-  - `ExpressApp.use(helmet())`
-  - `ExpressApp.use(Express.urlencoded({extended: false}))`
-  - `ExpressApp.use(Express.json())`
-  - `ExpressApp.use(Morgan)` - middlewares för att hantera outcome från Logger.
+
+- Denna kommer att hämta alla middlewares jag vill använda och den importerar jag i min Server.js
+    - `ExpressApp.use(helmet())`
+    - `ExpressApp.use(Express.urlencoded({extended: false}))`
+    - `ExpressApp.use(Express.json())`
+    - `ExpressApp.use(Morgan)` - middlewares för att hantera outcome från Logger.
 
 Det kommer också att finnas en fil som heter `CoffeeConfiguration.js` i denna directory lite senare
-
 
 ### Säkerhet
 
 För att säkra upp projektet har jag använt mig utav
+
 - Dotenv - säkra känslig information från användare och detta skickas inte upp mot GitHub till exempel
 - Logger - för att inte använda console.log och på så vis undvika att känslig information syns i console på webb
 - Helmet - skapar ett skal som skyddar kod och känslig information återigen i inspektorn
 
 ### Kvalitetssäkerhet
 
-Jag använder 
+Jag använder
+
 - Insomnia för att testa mina anrop
 - Mocha & Chai för att testa min backend i koden
 
-Jag har valt att använda ramverk jag känner mig bekväm i med tanke på tiden som är för projektet.
-För att verkligen visa vad jag kan.
-
+Jag har valt att använda ramverk jag känner mig bekväm i med tanke på tiden som är för projektet. För att verkligen visa
+vad jag kan.
 
 ### För Techlead
 
 För att komma igång och testa detta projekt behövs följande göras:
+
 1. Öppna .env-template och följ stegen i filen
 2. `cd backend` i terminalen
 3. `npx nodemon Server.js` | `npm nodemon Server.js`
