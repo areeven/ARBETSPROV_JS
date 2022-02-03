@@ -39,7 +39,7 @@ const getAllCoffee = async (req, res) => {
     }
 }
 
-const updateCoffee = async (req, res) => {
+const updateCoffeeWithId = async (req, res) => {
     try {
         const body = req.body
         const {coffeeId} = req.params
@@ -65,13 +65,25 @@ const updateCoffee = async (req, res) => {
     }
 }
 
-const deleteCoffee = async () => {
-
+const deleteCoffeeWithId = async (req, res) => {
+    try {
+        const {coffeeId} = req.params
+        const response = await CoffeeModel.findByIdAndDelete(coffeeId)
+        res.status(200).send({
+            message: `Deleted Coffee with ID: ${coffeeId} and brand: ${response.brand}`,
+        })
+    } catch(error) {
+        res.status(500).send({
+            message: `Error while trying to delete Coffee with ID: ${req.params.coffeeId}`,
+            error: error.message
+        })
+    }
 }
 
 
 export default {
     createCoffee,
     getAllCoffee,
-    updateCoffee
+    updateCoffeeWithId,
+    deleteCoffeeWithId
 }
