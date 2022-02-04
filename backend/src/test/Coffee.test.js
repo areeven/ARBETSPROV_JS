@@ -55,7 +55,7 @@ const createCoffee = () => {
                 .post(`${coffeeRoute}`)
                 .send(coffee)
                 .end((error, response) => {
-                    id = response.body.id
+                    id = response.body._id
                     expect(response.body).be.a('object')
                     expect(response.status).to.equal(StatusCode.CREATED)
                     expect(response.body).to.have.a.property('brand')
@@ -92,12 +92,15 @@ const updateCoffee = () => {
                 .put(`${coffeeRoute}/${id}`)
                 .send(updatedCoffee)
                 .end((error, response) => {
-                    expect(response.status).to.eq(StatusCode.OK)
+                    expect(response.status).to.equal(StatusCode.OK)
+                    expect(response.body).be.a('object')
                     done()
                 })
         })
     })
 }
+
+
 
 const deleteCoffee = () => {
     describe('test method (PUT) update in database', () => {

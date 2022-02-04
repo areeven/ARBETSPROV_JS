@@ -6148,3 +6148,3009 @@
 [35m[39m
 2022-02-03 23:21:37:2137 [35mhttp[39m: [35mDELETE /coffee/undefined 500 177 - 0.751 ms[39m
 [35m[39m
+2022-02-04 06:31:54:3154 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:31:54:3154 [35mhttp[39m: [35m{ brand: '5roit', taste: '5roit', strength: '5roit', organic: true }[39m
+2022-02-04 06:31:54:3154 [37mdebug[39m: [37m{[39m
+[37m  brand: '5roit',[39m
+[37m  taste: '5roit',[39m
+[37m  strength: '5roit',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcba4a28bb8209c059c8f5")[39m
+[37m}[39m
+2022-02-04 06:31:58:3158 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:31:58:3158 [35mhttp[39m: [35mGET / 200 13 - 2.745 ms[39m
+[35m[39m
+2022-02-04 06:31:58:3158 [35mhttp[39m: [35mCoffee id is: 61fbfa981c39baa60bca2f3b[39m
+2022-02-04 06:31:58:3158 [35mhttp[39m: [35m{[39m
+[35m  brand: '5roit5roit',[39m
+[35m  taste: '5roit5roit',[39m
+[35m  strength: '5roit5roit',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:32:04:324 [35mhttp[39m: [35mPOST /coffee 500 79 - 10023.020 ms[39m
+[35m[39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:32:22:3222 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35m{ brand: 'yxede', taste: 'yxede', strength: 'yxede', organic: true }[39m
+2022-02-04 06:32:22:3222 [37mdebug[39m: [37m{[39m
+[37m  brand: 'yxede',[39m
+[37m  taste: 'yxede',[39m
+[37m  strength: 'yxede',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5")[39m
+[37m}[39m
+2022-02-04 06:32:22:3222 [37mdebug[39m: [37m{[39m
+[37m  brand: 'yxede',[39m
+[37m  taste: 'yxede',[39m
+[37m  strength: 'yxede',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m  createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m  updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35mPOST /coffee 201 186 - 28.362 ms[39m
+[35m[39m
+2022-02-04 06:32:22:3222 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m    brand: '7tls13',[39m
+[37m    taste: '7tls13',[39m
+[37m    strength: '7tls13',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4e54e675b4ba991b3051"),[39m
+[37m    brand: 'qtc83w',[39m
+[37m    taste: 'qtc83w',[39m
+[37m    strength: 'qtc83w',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    updatedAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4eafdf80407bbc944a63"),[39m
+[37m    brand: 'razlzh',[39m
+[37m    taste: 'razlzh',[39m
+[37m    strength: 'razlzh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    updatedAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ee5d1a19783517263c0"),[39m
+[37m    brand: '0kx2z',[39m
+[37m    taste: '0kx2z',[39m
+[37m    strength: '0kx2z',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ef42e25c0ecfc1c8073"),[39m
+[37m    brand: 'vlt9xt',[39m
+[37m    taste: 'vlt9xt',[39m
+[37m    strength: 'vlt9xt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f1fab5b1186bca01726"),[39m
+[37m    brand: 'xb15gs',[39m
+[37m    taste: 'xb15gs',[39m
+[37m    strength: 'xb15gs',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    updatedAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f7e6f5648e4f1b42f90"),[39m
+[37m    brand: 'qg91r',[39m
+[37m    taste: 'qg91r',[39m
+[37m    strength: 'qg91r',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    updatedAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fb2a7a55932cfa682c0"),[39m
+[37m    brand: 'c7n5rt',[39m
+[37m    taste: 'c7n5rt',[39m
+[37m    strength: 'c7n5rt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    updatedAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fe98bfb0fe9e330dece"),[39m
+[37m    brand: 'ozw4fh',[39m
+[37m    taste: 'ozw4fh',[39m
+[37m    strength: 'ozw4fh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ffd534b6d29492e3de0"),[39m
+[37m    brand: 'lecr69',[39m
+[37m    taste: 'lecr69',[39m
+[37m    strength: 'lecr69',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc503368fb105a49234780"),[39m
+[37m    brand: 'edthb',[39m
+[37m    taste: 'edthb',[39m
+[37m    strength: 'edthb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc50584f2613fec51171fa"),[39m
+[37m    brand: 'sjng7',[39m
+[37m    taste: 'sjng7',[39m
+[37m    strength: 'sjng7',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5084de66d91f08eae6d8"),[39m
+[37m    brand: 'ui8o2',[39m
+[37m    taste: 'ui8o2',[39m
+[37m    strength: 'ui8o2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    updatedAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5315a8e2679e14d57826"),[39m
+[37m    brand: '4xsx1c',[39m
+[37m    taste: '4xsx1c',[39m
+[37m    strength: '4xsx1c',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc531f9655b8ad5254abed"),[39m
+[37m    brand: 'jimb2',[39m
+[37m    taste: 'jimb2',[39m
+[37m    strength: 'jimb2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5335c9944351d3dab979"),[39m
+[37m    brand: '4i7vwj',[39m
+[37m    taste: '4i7vwj',[39m
+[37m    strength: '4i7vwj',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    updatedAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53971a61cfd83c5f203e"),[39m
+[37m    brand: 'lh0h4',[39m
+[37m    taste: 'lh0h4',[39m
+[37m    strength: 'lh0h4',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    updatedAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53bb317d60b3da1fae37"),[39m
+[37m    brand: 'br3mbg',[39m
+[37m    taste: 'br3mbg',[39m
+[37m    strength: 'br3mbg',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    updatedAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5406c4b6f640f6532a91"),[39m
+[37m    brand: 'oawkulb',[39m
+[37m    taste: 'oawkulb',[39m
+[37m    strength: 'oawkulb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    updatedAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc54836a12b0a84042b0cd"),[39m
+[37m    brand: '7u0gkk',[39m
+[37m    taste: '7u0gkk',[39m
+[37m    strength: '7u0gkk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    updatedAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55324b5c364115100e92"),[39m
+[37m    brand: '0hsb4k',[39m
+[37m    taste: '0hsb4k',[39m
+[37m    strength: '0hsb4k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    updatedAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5558b984e6e0d71339c0"),[39m
+[37m    brand: '1ndzxk',[39m
+[37m    taste: '1ndzxk',[39m
+[37m    strength: '1ndzxk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55715f6315f369f2a233"),[39m
+[37m    brand: 'sojfwl',[39m
+[37m    taste: 'sojfwl',[39m
+[37m    strength: 'sojfwl',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m    brand: 'yxede',[39m
+[37m    taste: 'yxede',[39m
+[37m    strength: 'yxede',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35mGET /coffee 200 5716 - 26.612 ms[39m
+[35m[39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35mGET / 200 13 - 0.882 ms[39m
+[35m[39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35mCoffee id is: undefined[39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35m{[39m
+[35m  brand: 'yxedeyxede',[39m
+[35m  taste: 'yxedeyxede',[39m
+[35m  strength: 'yxedeyxede',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35mPUT /coffee/undefined 500 186 - 3.583 ms[39m
+[35m[39m
+2022-02-04 06:32:22:3222 [35mhttp[39m: [35mDELETE /coffee/undefined 500 177 - 0.782 ms[39m
+[35m[39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:39:29:3929 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35m{ brand: '45vjdw', taste: '45vjdw', strength: '45vjdw', organic: true }[39m
+2022-02-04 06:39:29:3929 [37mdebug[39m: [37m{[39m
+[37m  brand: '45vjdw',[39m
+[37m  taste: '45vjdw',[39m
+[37m  strength: '45vjdw',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbc11beca632f00f0168d")[39m
+[37m}[39m
+2022-02-04 06:39:29:3929 [37mdebug[39m: [37m{[39m
+[37m  brand: '45vjdw',[39m
+[37m  taste: '45vjdw',[39m
+[37m  strength: '45vjdw',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbc11beca632f00f0168d"),[39m
+[37m  createdAt: 2022-02-04T05:39:29.307Z,[39m
+[37m  updatedAt: 2022-02-04T05:39:29.307Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35mPOST /coffee 201 189 - 17.287 ms[39m
+[35m[39m
+2022-02-04 06:39:29:3929 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m    brand: '7tls13',[39m
+[37m    taste: '7tls13',[39m
+[37m    strength: '7tls13',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4e54e675b4ba991b3051"),[39m
+[37m    brand: 'qtc83w',[39m
+[37m    taste: 'qtc83w',[39m
+[37m    strength: 'qtc83w',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    updatedAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4eafdf80407bbc944a63"),[39m
+[37m    brand: 'razlzh',[39m
+[37m    taste: 'razlzh',[39m
+[37m    strength: 'razlzh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    updatedAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ee5d1a19783517263c0"),[39m
+[37m    brand: '0kx2z',[39m
+[37m    taste: '0kx2z',[39m
+[37m    strength: '0kx2z',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ef42e25c0ecfc1c8073"),[39m
+[37m    brand: 'vlt9xt',[39m
+[37m    taste: 'vlt9xt',[39m
+[37m    strength: 'vlt9xt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f1fab5b1186bca01726"),[39m
+[37m    brand: 'xb15gs',[39m
+[37m    taste: 'xb15gs',[39m
+[37m    strength: 'xb15gs',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    updatedAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f7e6f5648e4f1b42f90"),[39m
+[37m    brand: 'qg91r',[39m
+[37m    taste: 'qg91r',[39m
+[37m    strength: 'qg91r',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    updatedAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fb2a7a55932cfa682c0"),[39m
+[37m    brand: 'c7n5rt',[39m
+[37m    taste: 'c7n5rt',[39m
+[37m    strength: 'c7n5rt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    updatedAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fe98bfb0fe9e330dece"),[39m
+[37m    brand: 'ozw4fh',[39m
+[37m    taste: 'ozw4fh',[39m
+[37m    strength: 'ozw4fh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ffd534b6d29492e3de0"),[39m
+[37m    brand: 'lecr69',[39m
+[37m    taste: 'lecr69',[39m
+[37m    strength: 'lecr69',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc503368fb105a49234780"),[39m
+[37m    brand: 'edthb',[39m
+[37m    taste: 'edthb',[39m
+[37m    strength: 'edthb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc50584f2613fec51171fa"),[39m
+[37m    brand: 'sjng7',[39m
+[37m    taste: 'sjng7',[39m
+[37m    strength: 'sjng7',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5084de66d91f08eae6d8"),[39m
+[37m    brand: 'ui8o2',[39m
+[37m    taste: 'ui8o2',[39m
+[37m    strength: 'ui8o2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    updatedAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5315a8e2679e14d57826"),[39m
+[37m    brand: '4xsx1c',[39m
+[37m    taste: '4xsx1c',[39m
+[37m    strength: '4xsx1c',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc531f9655b8ad5254abed"),[39m
+[37m    brand: 'jimb2',[39m
+[37m    taste: 'jimb2',[39m
+[37m    strength: 'jimb2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5335c9944351d3dab979"),[39m
+[37m    brand: '4i7vwj',[39m
+[37m    taste: '4i7vwj',[39m
+[37m    strength: '4i7vwj',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    updatedAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53971a61cfd83c5f203e"),[39m
+[37m    brand: 'lh0h4',[39m
+[37m    taste: 'lh0h4',[39m
+[37m    strength: 'lh0h4',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    updatedAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53bb317d60b3da1fae37"),[39m
+[37m    brand: 'br3mbg',[39m
+[37m    taste: 'br3mbg',[39m
+[37m    strength: 'br3mbg',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    updatedAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5406c4b6f640f6532a91"),[39m
+[37m    brand: 'oawkulb',[39m
+[37m    taste: 'oawkulb',[39m
+[37m    strength: 'oawkulb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    updatedAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc54836a12b0a84042b0cd"),[39m
+[37m    brand: '7u0gkk',[39m
+[37m    taste: '7u0gkk',[39m
+[37m    strength: '7u0gkk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    updatedAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55324b5c364115100e92"),[39m
+[37m    brand: '0hsb4k',[39m
+[37m    taste: '0hsb4k',[39m
+[37m    strength: '0hsb4k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    updatedAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5558b984e6e0d71339c0"),[39m
+[37m    brand: '1ndzxk',[39m
+[37m    taste: '1ndzxk',[39m
+[37m    strength: '1ndzxk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55715f6315f369f2a233"),[39m
+[37m    brand: 'sojfwl',[39m
+[37m    taste: 'sojfwl',[39m
+[37m    strength: 'sojfwl',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m    brand: 'yxede',[39m
+[37m    taste: 'yxede',[39m
+[37m    strength: 'yxede',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc11beca632f00f0168d"),[39m
+[37m    brand: '45vjdw',[39m
+[37m    taste: '45vjdw',[39m
+[37m    strength: '45vjdw',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35mGET /coffee 200 5906 - 27.145 ms[39m
+[35m[39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35mGET / 200 13 - 0.960 ms[39m
+[35m[39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35mCoffee id is: :coffeeId[39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35m{[39m
+[35m  brand: '45vjdw45vjdw',[39m
+[35m  taste: '45vjdw45vjdw',[39m
+[35m  strength: '45vjdw45vjdw',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35mPUT /coffee/:coffeeId 500 186 - 3.335 ms[39m
+[35m[39m
+2022-02-04 06:39:29:3929 [35mhttp[39m: [35mDELETE /coffee/undefined 500 177 - 0.762 ms[39m
+[35m[39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:39:52:3952 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35m{[39m
+[35m  brand: 'xv75sy9',[39m
+[35m  taste: 'xv75sy9',[39m
+[35m  strength: 'xv75sy9',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:39:52:3952 [37mdebug[39m: [37m{[39m
+[37m  brand: 'xv75sy9',[39m
+[37m  taste: 'xv75sy9',[39m
+[37m  strength: 'xv75sy9',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbc28a8ff0f96dc4bfe4a")[39m
+[37m}[39m
+2022-02-04 06:39:52:3952 [37mdebug[39m: [37m{[39m
+[37m  brand: 'xv75sy9',[39m
+[37m  taste: 'xv75sy9',[39m
+[37m  strength: 'xv75sy9',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbc28a8ff0f96dc4bfe4a"),[39m
+[37m  createdAt: 2022-02-04T05:39:52.255Z,[39m
+[37m  updatedAt: 2022-02-04T05:39:52.255Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35mPOST /coffee 201 192 - 21.437 ms[39m
+[35m[39m
+2022-02-04 06:39:52:3952 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m    brand: '7tls13',[39m
+[37m    taste: '7tls13',[39m
+[37m    strength: '7tls13',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4e54e675b4ba991b3051"),[39m
+[37m    brand: 'qtc83w',[39m
+[37m    taste: 'qtc83w',[39m
+[37m    strength: 'qtc83w',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    updatedAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4eafdf80407bbc944a63"),[39m
+[37m    brand: 'razlzh',[39m
+[37m    taste: 'razlzh',[39m
+[37m    strength: 'razlzh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    updatedAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ee5d1a19783517263c0"),[39m
+[37m    brand: '0kx2z',[39m
+[37m    taste: '0kx2z',[39m
+[37m    strength: '0kx2z',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ef42e25c0ecfc1c8073"),[39m
+[37m    brand: 'vlt9xt',[39m
+[37m    taste: 'vlt9xt',[39m
+[37m    strength: 'vlt9xt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f1fab5b1186bca01726"),[39m
+[37m    brand: 'xb15gs',[39m
+[37m    taste: 'xb15gs',[39m
+[37m    strength: 'xb15gs',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    updatedAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f7e6f5648e4f1b42f90"),[39m
+[37m    brand: 'qg91r',[39m
+[37m    taste: 'qg91r',[39m
+[37m    strength: 'qg91r',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    updatedAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fb2a7a55932cfa682c0"),[39m
+[37m    brand: 'c7n5rt',[39m
+[37m    taste: 'c7n5rt',[39m
+[37m    strength: 'c7n5rt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    updatedAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fe98bfb0fe9e330dece"),[39m
+[37m    brand: 'ozw4fh',[39m
+[37m    taste: 'ozw4fh',[39m
+[37m    strength: 'ozw4fh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ffd534b6d29492e3de0"),[39m
+[37m    brand: 'lecr69',[39m
+[37m    taste: 'lecr69',[39m
+[37m    strength: 'lecr69',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc503368fb105a49234780"),[39m
+[37m    brand: 'edthb',[39m
+[37m    taste: 'edthb',[39m
+[37m    strength: 'edthb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc50584f2613fec51171fa"),[39m
+[37m    brand: 'sjng7',[39m
+[37m    taste: 'sjng7',[39m
+[37m    strength: 'sjng7',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5084de66d91f08eae6d8"),[39m
+[37m    brand: 'ui8o2',[39m
+[37m    taste: 'ui8o2',[39m
+[37m    strength: 'ui8o2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    updatedAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5315a8e2679e14d57826"),[39m
+[37m    brand: '4xsx1c',[39m
+[37m    taste: '4xsx1c',[39m
+[37m    strength: '4xsx1c',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc531f9655b8ad5254abed"),[39m
+[37m    brand: 'jimb2',[39m
+[37m    taste: 'jimb2',[39m
+[37m    strength: 'jimb2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5335c9944351d3dab979"),[39m
+[37m    brand: '4i7vwj',[39m
+[37m    taste: '4i7vwj',[39m
+[37m    strength: '4i7vwj',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    updatedAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53971a61cfd83c5f203e"),[39m
+[37m    brand: 'lh0h4',[39m
+[37m    taste: 'lh0h4',[39m
+[37m    strength: 'lh0h4',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    updatedAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53bb317d60b3da1fae37"),[39m
+[37m    brand: 'br3mbg',[39m
+[37m    taste: 'br3mbg',[39m
+[37m    strength: 'br3mbg',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    updatedAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5406c4b6f640f6532a91"),[39m
+[37m    brand: 'oawkulb',[39m
+[37m    taste: 'oawkulb',[39m
+[37m    strength: 'oawkulb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    updatedAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc54836a12b0a84042b0cd"),[39m
+[37m    brand: '7u0gkk',[39m
+[37m    taste: '7u0gkk',[39m
+[37m    strength: '7u0gkk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    updatedAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55324b5c364115100e92"),[39m
+[37m    brand: '0hsb4k',[39m
+[37m    taste: '0hsb4k',[39m
+[37m    strength: '0hsb4k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    updatedAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5558b984e6e0d71339c0"),[39m
+[37m    brand: '1ndzxk',[39m
+[37m    taste: '1ndzxk',[39m
+[37m    strength: '1ndzxk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55715f6315f369f2a233"),[39m
+[37m    brand: 'sojfwl',[39m
+[37m    taste: 'sojfwl',[39m
+[37m    strength: 'sojfwl',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m    brand: 'yxede',[39m
+[37m    taste: 'yxede',[39m
+[37m    strength: 'yxede',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc11beca632f00f0168d"),[39m
+[37m    brand: '45vjdw',[39m
+[37m    taste: '45vjdw',[39m
+[37m    strength: '45vjdw',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc28a8ff0f96dc4bfe4a"),[39m
+[37m    brand: 'xv75sy9',[39m
+[37m    taste: 'xv75sy9',[39m
+[37m    strength: 'xv75sy9',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35mGET /coffee 200 6099 - 30.581 ms[39m
+[35m[39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35mGET / 200 13 - 0.971 ms[39m
+[35m[39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35mCoffee id is: :coffeeId[39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35m{[39m
+[35m  brand: 'xv75sy9xv75sy9',[39m
+[35m  taste: 'xv75sy9xv75sy9',[39m
+[35m  strength: 'xv75sy9xv75sy9',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35mPUT /coffee/:coffeeId 500 186 - 3.472 ms[39m
+[35m[39m
+2022-02-04 06:39:52:3952 [35mhttp[39m: [35mDELETE /coffee/undefined 500 177 - 0.819 ms[39m
+[35m[39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:40:24:4024 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35m{ brand: 'c6s74', taste: 'c6s74', strength: 'c6s74', organic: true }[39m
+2022-02-04 06:40:24:4024 [37mdebug[39m: [37m{[39m
+[37m  brand: 'c6s74',[39m
+[37m  taste: 'c6s74',[39m
+[37m  strength: 'c6s74',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbc4800504ccafc706a76")[39m
+[37m}[39m
+2022-02-04 06:40:24:4024 [37mdebug[39m: [37m{[39m
+[37m  brand: 'c6s74',[39m
+[37m  taste: 'c6s74',[39m
+[37m  strength: 'c6s74',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbc4800504ccafc706a76"),[39m
+[37m  createdAt: 2022-02-04T05:40:24.750Z,[39m
+[37m  updatedAt: 2022-02-04T05:40:24.750Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35mPOST /coffee 201 186 - 22.421 ms[39m
+[35m[39m
+2022-02-04 06:40:24:4024 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m    brand: '7tls13',[39m
+[37m    taste: '7tls13',[39m
+[37m    strength: '7tls13',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4e54e675b4ba991b3051"),[39m
+[37m    brand: 'qtc83w',[39m
+[37m    taste: 'qtc83w',[39m
+[37m    strength: 'qtc83w',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    updatedAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4eafdf80407bbc944a63"),[39m
+[37m    brand: 'razlzh',[39m
+[37m    taste: 'razlzh',[39m
+[37m    strength: 'razlzh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    updatedAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ee5d1a19783517263c0"),[39m
+[37m    brand: '0kx2z',[39m
+[37m    taste: '0kx2z',[39m
+[37m    strength: '0kx2z',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ef42e25c0ecfc1c8073"),[39m
+[37m    brand: 'vlt9xt',[39m
+[37m    taste: 'vlt9xt',[39m
+[37m    strength: 'vlt9xt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f1fab5b1186bca01726"),[39m
+[37m    brand: 'xb15gs',[39m
+[37m    taste: 'xb15gs',[39m
+[37m    strength: 'xb15gs',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    updatedAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f7e6f5648e4f1b42f90"),[39m
+[37m    brand: 'qg91r',[39m
+[37m    taste: 'qg91r',[39m
+[37m    strength: 'qg91r',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    updatedAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fb2a7a55932cfa682c0"),[39m
+[37m    brand: 'c7n5rt',[39m
+[37m    taste: 'c7n5rt',[39m
+[37m    strength: 'c7n5rt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    updatedAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fe98bfb0fe9e330dece"),[39m
+[37m    brand: 'ozw4fh',[39m
+[37m    taste: 'ozw4fh',[39m
+[37m    strength: 'ozw4fh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ffd534b6d29492e3de0"),[39m
+[37m    brand: 'lecr69',[39m
+[37m    taste: 'lecr69',[39m
+[37m    strength: 'lecr69',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc503368fb105a49234780"),[39m
+[37m    brand: 'edthb',[39m
+[37m    taste: 'edthb',[39m
+[37m    strength: 'edthb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc50584f2613fec51171fa"),[39m
+[37m    brand: 'sjng7',[39m
+[37m    taste: 'sjng7',[39m
+[37m    strength: 'sjng7',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5084de66d91f08eae6d8"),[39m
+[37m    brand: 'ui8o2',[39m
+[37m    taste: 'ui8o2',[39m
+[37m    strength: 'ui8o2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    updatedAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5315a8e2679e14d57826"),[39m
+[37m    brand: '4xsx1c',[39m
+[37m    taste: '4xsx1c',[39m
+[37m    strength: '4xsx1c',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc531f9655b8ad5254abed"),[39m
+[37m    brand: 'jimb2',[39m
+[37m    taste: 'jimb2',[39m
+[37m    strength: 'jimb2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5335c9944351d3dab979"),[39m
+[37m    brand: '4i7vwj',[39m
+[37m    taste: '4i7vwj',[39m
+[37m    strength: '4i7vwj',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    updatedAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53971a61cfd83c5f203e"),[39m
+[37m    brand: 'lh0h4',[39m
+[37m    taste: 'lh0h4',[39m
+[37m    strength: 'lh0h4',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    updatedAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53bb317d60b3da1fae37"),[39m
+[37m    brand: 'br3mbg',[39m
+[37m    taste: 'br3mbg',[39m
+[37m    strength: 'br3mbg',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    updatedAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5406c4b6f640f6532a91"),[39m
+[37m    brand: 'oawkulb',[39m
+[37m    taste: 'oawkulb',[39m
+[37m    strength: 'oawkulb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    updatedAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc54836a12b0a84042b0cd"),[39m
+[37m    brand: '7u0gkk',[39m
+[37m    taste: '7u0gkk',[39m
+[37m    strength: '7u0gkk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    updatedAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55324b5c364115100e92"),[39m
+[37m    brand: '0hsb4k',[39m
+[37m    taste: '0hsb4k',[39m
+[37m    strength: '0hsb4k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    updatedAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5558b984e6e0d71339c0"),[39m
+[37m    brand: '1ndzxk',[39m
+[37m    taste: '1ndzxk',[39m
+[37m    strength: '1ndzxk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55715f6315f369f2a233"),[39m
+[37m    brand: 'sojfwl',[39m
+[37m    taste: 'sojfwl',[39m
+[37m    strength: 'sojfwl',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m    brand: 'yxede',[39m
+[37m    taste: 'yxede',[39m
+[37m    strength: 'yxede',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc11beca632f00f0168d"),[39m
+[37m    brand: '45vjdw',[39m
+[37m    taste: '45vjdw',[39m
+[37m    strength: '45vjdw',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc28a8ff0f96dc4bfe4a"),[39m
+[37m    brand: 'xv75sy9',[39m
+[37m    taste: 'xv75sy9',[39m
+[37m    strength: 'xv75sy9',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc4800504ccafc706a76"),[39m
+[37m    brand: 'c6s74',[39m
+[37m    taste: 'c6s74',[39m
+[37m    strength: 'c6s74',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    updatedAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35mGET /coffee 200 6286 - 28.822 ms[39m
+[35m[39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35mGET / 200 13 - 0.913 ms[39m
+[35m[39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35mCoffee id is: undefined[39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35m{[39m
+[35m  brand: 'c6s74c6s74',[39m
+[35m  taste: 'c6s74c6s74',[39m
+[35m  strength: 'c6s74c6s74',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35mPUT /coffee/undefined 500 186 - 3.645 ms[39m
+[35m[39m
+2022-02-04 06:40:24:4024 [35mhttp[39m: [35mDELETE /coffee/undefined 500 177 - 0.817 ms[39m
+[35m[39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:42:38:4238 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35m{ brand: '453huh', taste: '453huh', strength: '453huh', organic: true }[39m
+2022-02-04 06:42:38:4238 [37mdebug[39m: [37m{[39m
+[37m  brand: '453huh',[39m
+[37m  taste: '453huh',[39m
+[37m  strength: '453huh',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbcce3fbc4964b7494fbe")[39m
+[37m}[39m
+2022-02-04 06:42:38:4238 [37mdebug[39m: [37m{[39m
+[37m  brand: '453huh',[39m
+[37m  taste: '453huh',[39m
+[37m  strength: '453huh',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbcce3fbc4964b7494fbe"),[39m
+[37m  createdAt: 2022-02-04T05:42:38.194Z,[39m
+[37m  updatedAt: 2022-02-04T05:42:38.194Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35mPOST /coffee 201 189 - 17.354 ms[39m
+[35m[39m
+2022-02-04 06:42:38:4238 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m    brand: '7tls13',[39m
+[37m    taste: '7tls13',[39m
+[37m    strength: '7tls13',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4e54e675b4ba991b3051"),[39m
+[37m    brand: 'qtc83w',[39m
+[37m    taste: 'qtc83w',[39m
+[37m    strength: 'qtc83w',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    updatedAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4eafdf80407bbc944a63"),[39m
+[37m    brand: 'razlzh',[39m
+[37m    taste: 'razlzh',[39m
+[37m    strength: 'razlzh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    updatedAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ee5d1a19783517263c0"),[39m
+[37m    brand: '0kx2z',[39m
+[37m    taste: '0kx2z',[39m
+[37m    strength: '0kx2z',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ef42e25c0ecfc1c8073"),[39m
+[37m    brand: 'vlt9xt',[39m
+[37m    taste: 'vlt9xt',[39m
+[37m    strength: 'vlt9xt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f1fab5b1186bca01726"),[39m
+[37m    brand: 'xb15gs',[39m
+[37m    taste: 'xb15gs',[39m
+[37m    strength: 'xb15gs',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    updatedAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f7e6f5648e4f1b42f90"),[39m
+[37m    brand: 'qg91r',[39m
+[37m    taste: 'qg91r',[39m
+[37m    strength: 'qg91r',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    updatedAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fb2a7a55932cfa682c0"),[39m
+[37m    brand: 'c7n5rt',[39m
+[37m    taste: 'c7n5rt',[39m
+[37m    strength: 'c7n5rt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    updatedAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fe98bfb0fe9e330dece"),[39m
+[37m    brand: 'ozw4fh',[39m
+[37m    taste: 'ozw4fh',[39m
+[37m    strength: 'ozw4fh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ffd534b6d29492e3de0"),[39m
+[37m    brand: 'lecr69',[39m
+[37m    taste: 'lecr69',[39m
+[37m    strength: 'lecr69',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc503368fb105a49234780"),[39m
+[37m    brand: 'edthb',[39m
+[37m    taste: 'edthb',[39m
+[37m    strength: 'edthb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc50584f2613fec51171fa"),[39m
+[37m    brand: 'sjng7',[39m
+[37m    taste: 'sjng7',[39m
+[37m    strength: 'sjng7',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5084de66d91f08eae6d8"),[39m
+[37m    brand: 'ui8o2',[39m
+[37m    taste: 'ui8o2',[39m
+[37m    strength: 'ui8o2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    updatedAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5315a8e2679e14d57826"),[39m
+[37m    brand: '4xsx1c',[39m
+[37m    taste: '4xsx1c',[39m
+[37m    strength: '4xsx1c',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc531f9655b8ad5254abed"),[39m
+[37m    brand: 'jimb2',[39m
+[37m    taste: 'jimb2',[39m
+[37m    strength: 'jimb2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5335c9944351d3dab979"),[39m
+[37m    brand: '4i7vwj',[39m
+[37m    taste: '4i7vwj',[39m
+[37m    strength: '4i7vwj',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    updatedAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53971a61cfd83c5f203e"),[39m
+[37m    brand: 'lh0h4',[39m
+[37m    taste: 'lh0h4',[39m
+[37m    strength: 'lh0h4',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    updatedAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53bb317d60b3da1fae37"),[39m
+[37m    brand: 'br3mbg',[39m
+[37m    taste: 'br3mbg',[39m
+[37m    strength: 'br3mbg',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    updatedAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5406c4b6f640f6532a91"),[39m
+[37m    brand: 'oawkulb',[39m
+[37m    taste: 'oawkulb',[39m
+[37m    strength: 'oawkulb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    updatedAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc54836a12b0a84042b0cd"),[39m
+[37m    brand: '7u0gkk',[39m
+[37m    taste: '7u0gkk',[39m
+[37m    strength: '7u0gkk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    updatedAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55324b5c364115100e92"),[39m
+[37m    brand: '0hsb4k',[39m
+[37m    taste: '0hsb4k',[39m
+[37m    strength: '0hsb4k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    updatedAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5558b984e6e0d71339c0"),[39m
+[37m    brand: '1ndzxk',[39m
+[37m    taste: '1ndzxk',[39m
+[37m    strength: '1ndzxk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55715f6315f369f2a233"),[39m
+[37m    brand: 'sojfwl',[39m
+[37m    taste: 'sojfwl',[39m
+[37m    strength: 'sojfwl',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m    brand: 'yxede',[39m
+[37m    taste: 'yxede',[39m
+[37m    strength: 'yxede',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc11beca632f00f0168d"),[39m
+[37m    brand: '45vjdw',[39m
+[37m    taste: '45vjdw',[39m
+[37m    strength: '45vjdw',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc28a8ff0f96dc4bfe4a"),[39m
+[37m    brand: 'xv75sy9',[39m
+[37m    taste: 'xv75sy9',[39m
+[37m    strength: 'xv75sy9',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc4800504ccafc706a76"),[39m
+[37m    brand: 'c6s74',[39m
+[37m    taste: 'c6s74',[39m
+[37m    strength: 'c6s74',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    updatedAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbcce3fbc4964b7494fbe"),[39m
+[37m    brand: '453huh',[39m
+[37m    taste: '453huh',[39m
+[37m    strength: '453huh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:42:38.194Z,[39m
+[37m    updatedAt: 2022-02-04T05:42:38.194Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35mGET /coffee 200 6476 - 28.805 ms[39m
+[35m[39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35mGET / 200 13 - 0.884 ms[39m
+[35m[39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35mCoffee id is: 61fcbcce3fbc4964b7494fbe[39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35m{[39m
+[35m  brand: '453huh453huh',[39m
+[35m  taste: '453huh453huh',[39m
+[35m  strength: '453huh453huh',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:42:38:4238 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61fcbcce3fbc4964b7494fbe"),[39m
+[37m  brand: '453huh453huh',[39m
+[37m  taste: '453huh453huh',[39m
+[37m  strength: '453huh453huh',[39m
+[37m  organic: true,[39m
+[37m  createdAt: 2022-02-04T05:42:38.194Z,[39m
+[37m  updatedAt: 2022-02-04T05:42:38.251Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35mPUT /coffee/61fcbcce3fbc4964b7494fbe 200 207 - 9.647 ms[39m
+[35m[39m
+2022-02-04 06:42:38:4238 [35mhttp[39m: [35mDELETE /coffee/61fcbcce3fbc4964b7494fbe 200 86 - 3.628 ms[39m
+[35m[39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:43:00:430 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35m{ brand: 'xtxw4d', taste: 'xtxw4d', strength: 'xtxw4d', organic: true }[39m
+2022-02-04 06:43:00:430 [37mdebug[39m: [37m{[39m
+[37m  brand: 'xtxw4d',[39m
+[37m  taste: 'xtxw4d',[39m
+[37m  strength: 'xtxw4d',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbce43c4a95dc118ecf92")[39m
+[37m}[39m
+2022-02-04 06:43:00:430 [37mdebug[39m: [37m{[39m
+[37m  brand: 'xtxw4d',[39m
+[37m  taste: 'xtxw4d',[39m
+[37m  strength: 'xtxw4d',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbce43c4a95dc118ecf92"),[39m
+[37m  createdAt: 2022-02-04T05:43:00.765Z,[39m
+[37m  updatedAt: 2022-02-04T05:43:00.765Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35mPOST /coffee 201 189 - 25.969 ms[39m
+[35m[39m
+2022-02-04 06:43:00:430 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m    brand: '7tls13',[39m
+[37m    taste: '7tls13',[39m
+[37m    strength: '7tls13',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4e54e675b4ba991b3051"),[39m
+[37m    brand: 'qtc83w',[39m
+[37m    taste: 'qtc83w',[39m
+[37m    strength: 'qtc83w',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    updatedAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4eafdf80407bbc944a63"),[39m
+[37m    brand: 'razlzh',[39m
+[37m    taste: 'razlzh',[39m
+[37m    strength: 'razlzh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    updatedAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ee5d1a19783517263c0"),[39m
+[37m    brand: '0kx2z',[39m
+[37m    taste: '0kx2z',[39m
+[37m    strength: '0kx2z',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ef42e25c0ecfc1c8073"),[39m
+[37m    brand: 'vlt9xt',[39m
+[37m    taste: 'vlt9xt',[39m
+[37m    strength: 'vlt9xt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f1fab5b1186bca01726"),[39m
+[37m    brand: 'xb15gs',[39m
+[37m    taste: 'xb15gs',[39m
+[37m    strength: 'xb15gs',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    updatedAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f7e6f5648e4f1b42f90"),[39m
+[37m    brand: 'qg91r',[39m
+[37m    taste: 'qg91r',[39m
+[37m    strength: 'qg91r',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    updatedAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fb2a7a55932cfa682c0"),[39m
+[37m    brand: 'c7n5rt',[39m
+[37m    taste: 'c7n5rt',[39m
+[37m    strength: 'c7n5rt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    updatedAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fe98bfb0fe9e330dece"),[39m
+[37m    brand: 'ozw4fh',[39m
+[37m    taste: 'ozw4fh',[39m
+[37m    strength: 'ozw4fh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ffd534b6d29492e3de0"),[39m
+[37m    brand: 'lecr69',[39m
+[37m    taste: 'lecr69',[39m
+[37m    strength: 'lecr69',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc503368fb105a49234780"),[39m
+[37m    brand: 'edthb',[39m
+[37m    taste: 'edthb',[39m
+[37m    strength: 'edthb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc50584f2613fec51171fa"),[39m
+[37m    brand: 'sjng7',[39m
+[37m    taste: 'sjng7',[39m
+[37m    strength: 'sjng7',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5084de66d91f08eae6d8"),[39m
+[37m    brand: 'ui8o2',[39m
+[37m    taste: 'ui8o2',[39m
+[37m    strength: 'ui8o2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    updatedAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5315a8e2679e14d57826"),[39m
+[37m    brand: '4xsx1c',[39m
+[37m    taste: '4xsx1c',[39m
+[37m    strength: '4xsx1c',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc531f9655b8ad5254abed"),[39m
+[37m    brand: 'jimb2',[39m
+[37m    taste: 'jimb2',[39m
+[37m    strength: 'jimb2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5335c9944351d3dab979"),[39m
+[37m    brand: '4i7vwj',[39m
+[37m    taste: '4i7vwj',[39m
+[37m    strength: '4i7vwj',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    updatedAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53971a61cfd83c5f203e"),[39m
+[37m    brand: 'lh0h4',[39m
+[37m    taste: 'lh0h4',[39m
+[37m    strength: 'lh0h4',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    updatedAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53bb317d60b3da1fae37"),[39m
+[37m    brand: 'br3mbg',[39m
+[37m    taste: 'br3mbg',[39m
+[37m    strength: 'br3mbg',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    updatedAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5406c4b6f640f6532a91"),[39m
+[37m    brand: 'oawkulb',[39m
+[37m    taste: 'oawkulb',[39m
+[37m    strength: 'oawkulb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    updatedAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc54836a12b0a84042b0cd"),[39m
+[37m    brand: '7u0gkk',[39m
+[37m    taste: '7u0gkk',[39m
+[37m    strength: '7u0gkk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    updatedAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55324b5c364115100e92"),[39m
+[37m    brand: '0hsb4k',[39m
+[37m    taste: '0hsb4k',[39m
+[37m    strength: '0hsb4k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    updatedAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5558b984e6e0d71339c0"),[39m
+[37m    brand: '1ndzxk',[39m
+[37m    taste: '1ndzxk',[39m
+[37m    strength: '1ndzxk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55715f6315f369f2a233"),[39m
+[37m    brand: 'sojfwl',[39m
+[37m    taste: 'sojfwl',[39m
+[37m    strength: 'sojfwl',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m    brand: 'yxede',[39m
+[37m    taste: 'yxede',[39m
+[37m    strength: 'yxede',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc11beca632f00f0168d"),[39m
+[37m    brand: '45vjdw',[39m
+[37m    taste: '45vjdw',[39m
+[37m    strength: '45vjdw',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc28a8ff0f96dc4bfe4a"),[39m
+[37m    brand: 'xv75sy9',[39m
+[37m    taste: 'xv75sy9',[39m
+[37m    strength: 'xv75sy9',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc4800504ccafc706a76"),[39m
+[37m    brand: 'c6s74',[39m
+[37m    taste: 'c6s74',[39m
+[37m    strength: 'c6s74',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    updatedAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbce43c4a95dc118ecf92"),[39m
+[37m    brand: 'xtxw4d',[39m
+[37m    taste: 'xtxw4d',[39m
+[37m    strength: 'xtxw4d',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:43:00.765Z,[39m
+[37m    updatedAt: 2022-02-04T05:43:00.765Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35mGET /coffee 200 6476 - 31.875 ms[39m
+[35m[39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35mGET / 200 13 - 1.357 ms[39m
+[35m[39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35mCoffee id is: 61fcbce43c4a95dc118ecf92[39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35m{[39m
+[35m  brand: 'xtxw4dxtxw4d',[39m
+[35m  taste: 'xtxw4dxtxw4d',[39m
+[35m  strength: 'xtxw4dxtxw4d',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:43:00:430 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61fcbce43c4a95dc118ecf92"),[39m
+[37m  brand: 'xtxw4dxtxw4d',[39m
+[37m  taste: 'xtxw4dxtxw4d',[39m
+[37m  strength: 'xtxw4dxtxw4d',[39m
+[37m  organic: true,[39m
+[37m  createdAt: 2022-02-04T05:43:00.765Z,[39m
+[37m  updatedAt: 2022-02-04T05:43:00.841Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35mPUT /coffee/61fcbce43c4a95dc118ecf92 200 207 - 12.887 ms[39m
+[35m[39m
+2022-02-04 06:43:00:430 [35mhttp[39m: [35mDELETE /coffee/61fcbce43c4a95dc118ecf92 200 86 - 3.277 ms[39m
+[35m[39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:45:29:4529 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35m{ brand: 'ig107k', taste: 'ig107k', strength: 'ig107k', organic: true }[39m
+2022-02-04 06:45:29:4529 [37mdebug[39m: [37m{[39m
+[37m  brand: 'ig107k',[39m
+[37m  taste: 'ig107k',[39m
+[37m  strength: 'ig107k',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbd790d63b9baacb031d7")[39m
+[37m}[39m
+2022-02-04 06:45:29:4529 [37mdebug[39m: [37m{[39m
+[37m  brand: 'ig107k',[39m
+[37m  taste: 'ig107k',[39m
+[37m  strength: 'ig107k',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbd790d63b9baacb031d7"),[39m
+[37m  createdAt: 2022-02-04T05:45:29.432Z,[39m
+[37m  updatedAt: 2022-02-04T05:45:29.432Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35mPOST /coffee 201 189 - 18.246 ms[39m
+[35m[39m
+2022-02-04 06:45:29:4529 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m    brand: '7tls13',[39m
+[37m    taste: '7tls13',[39m
+[37m    strength: '7tls13',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4e54e675b4ba991b3051"),[39m
+[37m    brand: 'qtc83w',[39m
+[37m    taste: 'qtc83w',[39m
+[37m    strength: 'qtc83w',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    updatedAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4eafdf80407bbc944a63"),[39m
+[37m    brand: 'razlzh',[39m
+[37m    taste: 'razlzh',[39m
+[37m    strength: 'razlzh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    updatedAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ee5d1a19783517263c0"),[39m
+[37m    brand: '0kx2z',[39m
+[37m    taste: '0kx2z',[39m
+[37m    strength: '0kx2z',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ef42e25c0ecfc1c8073"),[39m
+[37m    brand: 'vlt9xt',[39m
+[37m    taste: 'vlt9xt',[39m
+[37m    strength: 'vlt9xt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f1fab5b1186bca01726"),[39m
+[37m    brand: 'xb15gs',[39m
+[37m    taste: 'xb15gs',[39m
+[37m    strength: 'xb15gs',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    updatedAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f7e6f5648e4f1b42f90"),[39m
+[37m    brand: 'qg91r',[39m
+[37m    taste: 'qg91r',[39m
+[37m    strength: 'qg91r',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    updatedAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fb2a7a55932cfa682c0"),[39m
+[37m    brand: 'c7n5rt',[39m
+[37m    taste: 'c7n5rt',[39m
+[37m    strength: 'c7n5rt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    updatedAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fe98bfb0fe9e330dece"),[39m
+[37m    brand: 'ozw4fh',[39m
+[37m    taste: 'ozw4fh',[39m
+[37m    strength: 'ozw4fh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ffd534b6d29492e3de0"),[39m
+[37m    brand: 'lecr69',[39m
+[37m    taste: 'lecr69',[39m
+[37m    strength: 'lecr69',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc503368fb105a49234780"),[39m
+[37m    brand: 'edthb',[39m
+[37m    taste: 'edthb',[39m
+[37m    strength: 'edthb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc50584f2613fec51171fa"),[39m
+[37m    brand: 'sjng7',[39m
+[37m    taste: 'sjng7',[39m
+[37m    strength: 'sjng7',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5084de66d91f08eae6d8"),[39m
+[37m    brand: 'ui8o2',[39m
+[37m    taste: 'ui8o2',[39m
+[37m    strength: 'ui8o2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    updatedAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5315a8e2679e14d57826"),[39m
+[37m    brand: '4xsx1c',[39m
+[37m    taste: '4xsx1c',[39m
+[37m    strength: '4xsx1c',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc531f9655b8ad5254abed"),[39m
+[37m    brand: 'jimb2',[39m
+[37m    taste: 'jimb2',[39m
+[37m    strength: 'jimb2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5335c9944351d3dab979"),[39m
+[37m    brand: '4i7vwj',[39m
+[37m    taste: '4i7vwj',[39m
+[37m    strength: '4i7vwj',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    updatedAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53971a61cfd83c5f203e"),[39m
+[37m    brand: 'lh0h4',[39m
+[37m    taste: 'lh0h4',[39m
+[37m    strength: 'lh0h4',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    updatedAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53bb317d60b3da1fae37"),[39m
+[37m    brand: 'br3mbg',[39m
+[37m    taste: 'br3mbg',[39m
+[37m    strength: 'br3mbg',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    updatedAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5406c4b6f640f6532a91"),[39m
+[37m    brand: 'oawkulb',[39m
+[37m    taste: 'oawkulb',[39m
+[37m    strength: 'oawkulb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    updatedAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc54836a12b0a84042b0cd"),[39m
+[37m    brand: '7u0gkk',[39m
+[37m    taste: '7u0gkk',[39m
+[37m    strength: '7u0gkk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    updatedAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55324b5c364115100e92"),[39m
+[37m    brand: '0hsb4k',[39m
+[37m    taste: '0hsb4k',[39m
+[37m    strength: '0hsb4k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    updatedAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5558b984e6e0d71339c0"),[39m
+[37m    brand: '1ndzxk',[39m
+[37m    taste: '1ndzxk',[39m
+[37m    strength: '1ndzxk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55715f6315f369f2a233"),[39m
+[37m    brand: 'sojfwl',[39m
+[37m    taste: 'sojfwl',[39m
+[37m    strength: 'sojfwl',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m    brand: 'yxede',[39m
+[37m    taste: 'yxede',[39m
+[37m    strength: 'yxede',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc11beca632f00f0168d"),[39m
+[37m    brand: '45vjdw',[39m
+[37m    taste: '45vjdw',[39m
+[37m    strength: '45vjdw',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc28a8ff0f96dc4bfe4a"),[39m
+[37m    brand: 'xv75sy9',[39m
+[37m    taste: 'xv75sy9',[39m
+[37m    strength: 'xv75sy9',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc4800504ccafc706a76"),[39m
+[37m    brand: 'c6s74',[39m
+[37m    taste: 'c6s74',[39m
+[37m    strength: 'c6s74',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    updatedAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbd790d63b9baacb031d7"),[39m
+[37m    brand: 'ig107k',[39m
+[37m    taste: 'ig107k',[39m
+[37m    strength: 'ig107k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:45:29.432Z,[39m
+[37m    updatedAt: 2022-02-04T05:45:29.432Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35mGET /coffee 200 6476 - 30.540 ms[39m
+[35m[39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35mGET / 200 13 - 0.966 ms[39m
+[35m[39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35mCoffee id is: 61fcbd790d63b9baacb031d7[39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35m{[39m
+[35m  brand: 'ig107kig107k',[39m
+[35m  taste: 'ig107kig107k',[39m
+[35m  strength: 'ig107kig107k',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:45:29:4529 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61fcbd790d63b9baacb031d7"),[39m
+[37m  brand: 'ig107kig107k',[39m
+[37m  taste: 'ig107kig107k',[39m
+[37m  strength: 'ig107kig107k',[39m
+[37m  organic: true,[39m
+[37m  createdAt: 2022-02-04T05:45:29.432Z,[39m
+[37m  updatedAt: 2022-02-04T05:45:29.496Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35mPUT /coffee/61fcbd790d63b9baacb031d7 200 207 - 9.323 ms[39m
+[35m[39m
+2022-02-04 06:45:29:4529 [35mhttp[39m: [35mDELETE /coffee/61fcbd790d63b9baacb031d7 200 86 - 3.171 ms[39m
+[35m[39m
+2022-02-04 06:46:42:4642 [35mhttp[39m: [35mSecure Server responding on https://localhost:8000[39m
+2022-02-04 06:46:42:4642 [32minfo[39m: [32mSuccessfully connected to database[39m
+2022-02-04 06:46:42:4642 [35mhttp[39m: [35m{ brand: 'kv80y', taste: 'kv80y', strength: 'kv80y', organic: true }[39m
+2022-02-04 06:46:42:4642 [37mdebug[39m: [37m{[39m
+[37m  brand: 'kv80y',[39m
+[37m  taste: 'kv80y',[39m
+[37m  strength: 'kv80y',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbdc2d23bc0eea49ffa0a")[39m
+[37m}[39m
+2022-02-04 06:46:42:4642 [37mdebug[39m: [37m{[39m
+[37m  brand: 'kv80y',[39m
+[37m  taste: 'kv80y',[39m
+[37m  strength: 'kv80y',[39m
+[37m  organic: true,[39m
+[37m  _id: new ObjectId("61fcbdc2d23bc0eea49ffa0a"),[39m
+[37m  createdAt: 2022-02-04T05:46:42.952Z,[39m
+[37m  updatedAt: 2022-02-04T05:46:42.952Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:46:42:4642 [35mhttp[39m: [35mPOST /coffee 201 186 - 18.365 ms[39m
+[35m[39m
+2022-02-04 06:46:42:4642 [37mdebug[39m: [37m[[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbf6b50e1daab64aacbf45"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:37:25.512Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:11.607Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fbfa981c39baa60bca2f3b"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    updatedAt: 2022-02-03T15:54:00.107Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ca2521b091278cade53"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    updatedAt: 2022-02-03T17:10:58.576Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc0ce6521b091278cade58"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    updatedAt: 2022-02-03T17:12:06.201Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc21c5a8e6ec13f4fd44da"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    updatedAt: 2022-02-03T18:41:09.435Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc3a5c1e8e7a9fe99ed238"),[39m
+[37m    brand: 'zoegas',[39m
+[37m    taste: 'hazienda',[39m
+[37m    strength: 'Dark roast',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    updatedAt: 2022-02-03T20:26:04.525Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4c394dc481118c52982b"),[39m
+[37m    brand: '7tls13',[39m
+[37m    taste: '7tls13',[39m
+[37m    strength: '7tls13',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    updatedAt: 2022-02-03T21:42:17.225Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4e54e675b4ba991b3051"),[39m
+[37m    brand: 'qtc83w',[39m
+[37m    taste: 'qtc83w',[39m
+[37m    strength: 'qtc83w',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    updatedAt: 2022-02-03T21:51:16.543Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4eafdf80407bbc944a63"),[39m
+[37m    brand: 'razlzh',[39m
+[37m    taste: 'razlzh',[39m
+[37m    strength: 'razlzh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    updatedAt: 2022-02-03T21:52:47.454Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ee5d1a19783517263c0"),[39m
+[37m    brand: '0kx2z',[39m
+[37m    taste: '0kx2z',[39m
+[37m    strength: '0kx2z',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:41.026Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ef42e25c0ecfc1c8073"),[39m
+[37m    brand: 'vlt9xt',[39m
+[37m    taste: 'vlt9xt',[39m
+[37m    strength: 'vlt9xt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    updatedAt: 2022-02-03T21:53:56.967Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f1fab5b1186bca01726"),[39m
+[37m    brand: 'xb15gs',[39m
+[37m    taste: 'xb15gs',[39m
+[37m    strength: 'xb15gs',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    updatedAt: 2022-02-03T21:54:39.060Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4f7e6f5648e4f1b42f90"),[39m
+[37m    brand: 'qg91r',[39m
+[37m    taste: 'qg91r',[39m
+[37m    strength: 'qg91r',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    updatedAt: 2022-02-03T21:56:14.226Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fb2a7a55932cfa682c0"),[39m
+[37m    brand: 'c7n5rt',[39m
+[37m    taste: 'c7n5rt',[39m
+[37m    strength: 'c7n5rt',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    updatedAt: 2022-02-03T21:57:06.404Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4fe98bfb0fe9e330dece"),[39m
+[37m    brand: 'ozw4fh',[39m
+[37m    taste: 'ozw4fh',[39m
+[37m    strength: 'ozw4fh',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:01.983Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc4ffd534b6d29492e3de0"),[39m
+[37m    brand: 'lecr69',[39m
+[37m    taste: 'lecr69',[39m
+[37m    strength: 'lecr69',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    updatedAt: 2022-02-03T21:58:21.969Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc503368fb105a49234780"),[39m
+[37m    brand: 'edthb',[39m
+[37m    taste: 'edthb',[39m
+[37m    strength: 'edthb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:15.291Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc50584f2613fec51171fa"),[39m
+[37m    brand: 'sjng7',[39m
+[37m    taste: 'sjng7',[39m
+[37m    strength: 'sjng7',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    updatedAt: 2022-02-03T21:59:52.810Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5084de66d91f08eae6d8"),[39m
+[37m    brand: 'ui8o2',[39m
+[37m    taste: 'ui8o2',[39m
+[37m    strength: 'ui8o2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    updatedAt: 2022-02-03T22:00:36.658Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5315a8e2679e14d57826"),[39m
+[37m    brand: '4xsx1c',[39m
+[37m    taste: '4xsx1c',[39m
+[37m    strength: '4xsx1c',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:33.193Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc531f9655b8ad5254abed"),[39m
+[37m    brand: 'jimb2',[39m
+[37m    taste: 'jimb2',[39m
+[37m    strength: 'jimb2',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    updatedAt: 2022-02-03T22:11:43.649Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5335c9944351d3dab979"),[39m
+[37m    brand: '4i7vwj',[39m
+[37m    taste: '4i7vwj',[39m
+[37m    strength: '4i7vwj',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    updatedAt: 2022-02-03T22:12:05.202Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53971a61cfd83c5f203e"),[39m
+[37m    brand: 'lh0h4',[39m
+[37m    taste: 'lh0h4',[39m
+[37m    strength: 'lh0h4',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    updatedAt: 2022-02-03T22:13:43.683Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc53bb317d60b3da1fae37"),[39m
+[37m    brand: 'br3mbg',[39m
+[37m    taste: 'br3mbg',[39m
+[37m    strength: 'br3mbg',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    updatedAt: 2022-02-03T22:14:19.265Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5406c4b6f640f6532a91"),[39m
+[37m    brand: 'oawkulb',[39m
+[37m    taste: 'oawkulb',[39m
+[37m    strength: 'oawkulb',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    updatedAt: 2022-02-03T22:15:34.270Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc54836a12b0a84042b0cd"),[39m
+[37m    brand: '7u0gkk',[39m
+[37m    taste: '7u0gkk',[39m
+[37m    strength: '7u0gkk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    updatedAt: 2022-02-03T22:17:39.397Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55324b5c364115100e92"),[39m
+[37m    brand: '0hsb4k',[39m
+[37m    taste: '0hsb4k',[39m
+[37m    strength: '0hsb4k',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    updatedAt: 2022-02-03T22:20:34.792Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc5558b984e6e0d71339c0"),[39m
+[37m    brand: '1ndzxk',[39m
+[37m    taste: '1ndzxk',[39m
+[37m    strength: '1ndzxk',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:12.177Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fc55715f6315f369f2a233"),[39m
+[37m    brand: 'sojfwl',[39m
+[37m    taste: 'sojfwl',[39m
+[37m    strength: 'sojfwl',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    updatedAt: 2022-02-03T22:21:37.753Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcba66fa51e4c2d2ed1bb5"),[39m
+[37m    brand: 'yxede',[39m
+[37m    taste: 'yxede',[39m
+[37m    strength: 'yxede',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    updatedAt: 2022-02-04T05:32:22.566Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc11beca632f00f0168d"),[39m
+[37m    brand: '45vjdw',[39m
+[37m    taste: '45vjdw',[39m
+[37m    strength: '45vjdw',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:29.307Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc28a8ff0f96dc4bfe4a"),[39m
+[37m    brand: 'xv75sy9',[39m
+[37m    taste: 'xv75sy9',[39m
+[37m    strength: 'xv75sy9',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    updatedAt: 2022-02-04T05:39:52.255Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbc4800504ccafc706a76"),[39m
+[37m    brand: 'c6s74',[39m
+[37m    taste: 'c6s74',[39m
+[37m    strength: 'c6s74',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    updatedAt: 2022-02-04T05:40:24.750Z,[39m
+[37m    __v: 0[39m
+[37m  },[39m
+[37m  {[39m
+[37m    _id: new ObjectId("61fcbdc2d23bc0eea49ffa0a"),[39m
+[37m    brand: 'kv80y',[39m
+[37m    taste: 'kv80y',[39m
+[37m    strength: 'kv80y',[39m
+[37m    organic: true,[39m
+[37m    createdAt: 2022-02-04T05:46:42.952Z,[39m
+[37m    updatedAt: 2022-02-04T05:46:42.952Z,[39m
+[37m    __v: 0[39m
+[37m  }[39m
+[37m][39m
+2022-02-04 06:46:42:4642 [35mhttp[39m: [35mGET /coffee 200 6473 - 27.330 ms[39m
+[35m[39m
+2022-02-04 06:46:43:4643 [35mhttp[39m: [35mAPI is alive![39m
+2022-02-04 06:46:43:4643 [35mhttp[39m: [35mGET / 200 13 - 0.880 ms[39m
+[35m[39m
+2022-02-04 06:46:43:4643 [35mhttp[39m: [35mCoffee id is: 61fcbdc2d23bc0eea49ffa0a[39m
+2022-02-04 06:46:43:4643 [35mhttp[39m: [35m{[39m
+[35m  brand: 'kv80ykv80y',[39m
+[35m  taste: 'kv80ykv80y',[39m
+[35m  strength: 'kv80ykv80y',[39m
+[35m  organic: true[39m
+[35m}[39m
+2022-02-04 06:46:43:4643 [37mdebug[39m: [37m{[39m
+[37m  _id: new ObjectId("61fcbdc2d23bc0eea49ffa0a"),[39m
+[37m  brand: 'kv80ykv80y',[39m
+[37m  taste: 'kv80ykv80y',[39m
+[37m  strength: 'kv80ykv80y',[39m
+[37m  organic: true,[39m
+[37m  createdAt: 2022-02-04T05:46:42.952Z,[39m
+[37m  updatedAt: 2022-02-04T05:46:43.007Z,[39m
+[37m  __v: 0[39m
+[37m}[39m
+2022-02-04 06:46:43:4643 [35mhttp[39m: [35mPUT /coffee/61fcbdc2d23bc0eea49ffa0a 200 201 - 8.530 ms[39m
+[35m[39m
+2022-02-04 06:46:43:4643 [35mhttp[39m: [35mDELETE /coffee/61fcbdc2d23bc0eea49ffa0a 200 84 - 3.239 ms[39m
+[35m[39m

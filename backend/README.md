@@ -1,4 +1,6 @@
-Utfört av: Emilie Öst Utfärdat av: Nordic Retail Group Start: 09:00 - 2022-02-03 Slut: 09:00 - 2022-02-04
+Utfärdat av: Nordic Retail Group Start: 09:00 - 2022-02-03 Slut: 09:00 - 2022-02-04
+
+Utfört av: Emilie Öst
 
 # KODTEST
 
@@ -192,8 +194,6 @@ min totalt, med felsökning och lite strul med min IDE.
 
 Testade återigen i webstorm, men också i webbläsaren och det fungerade. Testerna går igenom med godkänt som resultat.
 
-
-
 ## Säkerhet
 
 För att säkra upp projektet har jag använt mig utav
@@ -203,7 +203,7 @@ För att säkra upp projektet har jag använt mig utav
 - Helmet - skapar ett skal som skyddar kod och känslig information återigen i inspektorn
 - SSL - self-signed certifikat med openssl. Importerar detta i mitt listen-anrop där jag skapar en säker server med
   https. - som jag skriver ovan så är detta inte optimalt i development-läge på localhost, men jag vill visa att jag kan
-och förstår det så det följer med. 
+  och förstår det så det följer med.
 
 ## Kvalitetssäkerhet
 
@@ -218,16 +218,14 @@ vad jag kan.
 ## Test mocha - chai
 
 - Jag skapar en fil för samtliga anrop att testa och se så att det fungerar som det ska även här i terminalen.
-  - Coffee.test.js
-  - `import 'mocha'`
-  - `import Chai from 'chai'`
-  - `import chaiHttp from 'chai-http'`
-  - `import {describe, it as test} from 'mocha'`
-  - `import StatusCode from '../configuration/StatusCode.js'`
-  - `import ExpressApp from '../utils/ExpressApp.js'`
-  - `import app from '../Server.js'`
-
-
+    - Coffee.test.js
+    - `import 'mocha'`
+    - `import Chai from 'chai'`
+    - `import chaiHttp from 'chai-http'`
+    - `import {describe, it as test} from 'mocha'`
+    - `import StatusCode from '../configuration/StatusCode.js'`
+    - `import ExpressApp from '../utils/ExpressApp.js'`
+    - `import app from '../Server.js'`
 
 ## För Techlead
 
