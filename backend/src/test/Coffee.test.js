@@ -100,8 +100,6 @@ const updateCoffee = () => {
     })
 }
 
-
-
 const deleteCoffee = () => {
     describe('test method (PUT) update in database', () => {
         test('expecting to update coffee entity', (done) => {

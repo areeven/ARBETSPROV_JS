@@ -23,6 +23,7 @@ All info kring hanterandet av mitt REST-API finns i avsnittet om Techlead nedan.
 13. [Säkerhet](#skerhet)
 14. [Kvalitetssäkerhet](#kvalitetsskerhet)
 15. [README för techlead](#fr-techlead)
+16. [Test mocha/chai](#test-mocha---chai)
 
 ---
 
@@ -193,6 +194,8 @@ För att förbättra min kod lade jag sedan in en directory i controller för at
 min totalt, med felsökning och lite strul med min IDE.
 
 Testade återigen i webstorm, men också i webbläsaren och det fungerade. Testerna går igenom med godkänt som resultat.
+Jag har lagt till en conditional statement som testar längden på input och om det inte är 3 eller fler bokstäver/siffror
+kommer man inte att kunna uppdatera eller skapa ett kaffe.
 
 ## Säkerhet
 
@@ -227,6 +230,16 @@ vad jag kan.
     - `import ExpressApp from '../utils/ExpressApp.js'`
     - `import app from '../Server.js'`
 
+Skapar en random variabel för att testa mina funktioners input. 
+Så när jag skapar ett kaffe skapas ett random kaffe med ett fördefinierat true på om det är ekologiskt eller inte.
+
+När jag uppdaterar ett kaffe testar jag med en random + random sträng som gör att det blir ett nytt värde.
+
+Automatiska tester - med mocha chai
+Manuella tester - 
+- Kollat så det fungerar i insomnia
+- Testat mina routes i webbläsaren
+
 ## För Techlead
 
 Jag har lagt in en SSL-nyckel. Detta endast för att visa att jag förstår hur jag ska säkra upp med https och SSL. Jag
@@ -237,6 +250,7 @@ För att komma igång och testa detta projekt behövs följande göras:
 
 1. git clone https://github.com/areeven/ARBETSPROV_JS.git
 2. Öppna .env-template och följ stegen i filen
-3. `cd backend` i terminalen
-4. `npx nodemon Server.js` | `npm nodemon Server.js`
-5. För tester i mocha & chai skriv i terminalen (i directory backend): `npm run test`
+3. Starta upp databasen (jag har använt docker med mongoDB)
+4. `cd backend` i terminalen
+5. `npx nodemon Server.js` | `npm nodemon Server.js`
+6. För tester i mocha & chai skriv i terminalen (i directory backend): `npm run test`

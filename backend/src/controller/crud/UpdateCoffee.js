@@ -4,20 +4,25 @@ import StatusCode from '../../configuration/StatusCode.js'
 
 const updateCoffeeWithId = async (req, res) => {
     try {
-        const body = req.body
         const {coffeeId} = req.params
         Logger.http(`Coffee id is: ${coffeeId}`)
-        const {brand, taste, strength, organic} = body
-        Logger.http(body)
+        const {brand, taste, strength, organic} = req.body
+        const minLength = 3
+        Logger.debug(brand.length)
+        if(brand.length <= minLength || taste.length <= minLength || strength.length <= minLength) {
+            res.status(StatusCode.BAD_REQUEST).send({message: `Can't update with less than 3 characters`})
+        }
         if(organic === false) {
             return res.send("Can't update coffee unless it's organic")
         }
+        Logger.http(req.body)
         const response = await CoffeeModel.findByIdAndUpdate(coffeeId, {
             brand,
             taste,
             strength,
             organic
         }, {new: true})
+
         Logger.debug(response)
         res.status(StatusCode.OK).send(response)
     } catch(error) {
@@ -27,11 +32,6 @@ const updateCoffeeWithId = async (req, res) => {
         })
     }
 }
-
-
-
-
-
 
 export default {
     updateCoffeeWithId
